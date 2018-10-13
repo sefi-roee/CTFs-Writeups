@@ -15,3 +15,7 @@ And then we open the file
 ```bash
 xdg-open flag.jpg
 ```
+
+![alt text](./flag.jpg)
+
+Flag: picoCTF{welcome_to_forensics}
