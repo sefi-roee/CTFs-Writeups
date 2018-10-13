@@ -13,7 +13,7 @@ First we need to download the table:
 wget https://2018shell1.picoctf.com/static/7e80900bd1afae76845553d895e271e1/table.txt
 ```
 
-And then we open the file
+And then, using a simple script:
 ```python
 #!/usr/bin/env python
 
