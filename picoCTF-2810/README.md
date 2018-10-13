@@ -1,17 +1,17 @@
-Title                                                                      | Category         | Points | Flag
--------------------------------------------------------------------------- | ---------------- | ------ | ------------------------------
-[Forensics Warmup 1          ](./Forensics/01-warmup_1-50/solution.md)           | Forensics        | 50     | `picoCTF{welcome_to_forensics}`
-[Forensics Warmup 2          ]()           | Forensics        | 50     | `picoCTF{extensions_are_a_lie}`
-[General Skills Warmup 1     ]() | General Skills   | 50     | `picoCTF{A}`
-[General Skills Warmup 2     ]()| General Skills   | 50     | `picoCTF{11011}`
-[General Skills Warmup 3     ]() | General Skills   | 50     | `picoCTF{61}`
-[Resources                   ]()              | General Skills   | 50     | `picoCTF{xiexie_ni_lai_zheli}`
-[Reversing Warmup 1          ]()         | Reversing        | 50     | `picoCTF{welc0m3_t0_r3VeRs1nG}`
-[Reversing Warmup 2          ]()        | Reversing        | 50     | `picoCTF{th4t_w4s_s1mpL3}`
-[Crypto Warmup 1             ]()      | Cryptography     | 75     | `picoCTF{SECRETMESSAGE}`
-[Crypto Warmup 2             ]()   | Cryptography     | 75     | `picoCTF{this_is_crypto!}`
-[grep 1                      ]()         | General Skills   | 75     | `picoCTF{grep_and_you_will_find_cdf2e7c2}`
-[net cat                     ]()      | General Skills   | 75     | `picoCTF{NEtcat_iS_a_NEcESSiTy_0b4c4174}`
+Title                                                                       | Category         | Points | Flag
+--------------------------------------------------------------------------- | ---------------- | ------ | ------------------------------
+[Forensics Warmup 1          ](./Forensics/01-warmup_1-50/solution.md)      | Forensics        | 50     | `picoCTF{welcome_to_forensics}`
+[Forensics Warmup 2          ](./Forensics/02-warmup_2-50/solution.md)      | Forensics        | 50     | `picoCTF{extensions_are_a_lie}`
+[General Skills Warmup 1     ](./General/01-warmup_1-50/solution.md)        | General Skills   | 50     | `picoCTF{A}`
+[General Skills Warmup 2     ](./General/02-warmup_2-50/solution.md)        | General Skills   | 50     | `picoCTF{11011}`
+[General Skills Warmup 3     ](./General/03-warmup_3-50/solution.md)        | General Skills   | 50     | `picoCTF{61}`
+[Resources                   ](./General/04-resources-50/solution.md)       | General Skills   | 50     | `picoCTF{xiexie_ni_lai_zheli}`
+[Reversing Warmup 1          ](./Reversing/01-warmup_1-50/solution.md)      | Reversing        | 50     | `picoCTF{welc0m3_t0_r3VeRs1nG}`
+[Reversing Warmup 2          ](./Reversing/02-warmup_2-50/solution.md)      | Reversing        | 50     | `picoCTF{th4t_w4s_s1mpL3}`
+[Crypto Warmup 1             ](./Crypto/01-warmup_1-75/solution.md)         | Cryptography     | 75     | `picoCTF{SECRETMESSAGE}`
+[Crypto Warmup 2             ](./Crypto/02-warmup_2-75/solution.md)         | Cryptography     | 75     | `picoCTF{this_is_crypto!}`
+[grep 1                      ](./General/05-grep_1-75/solution.md)          | General Skills   | 75     | `picoCTF{grep_and_you_will_find_cdf2e7c2}`
+[net cat                     ](./General/06-netcat-75/solution.md)          | General Skills   | 75     | `picoCTF{NEtcat_iS_a_NEcESSiTy_0b4c4174}`
 [HEEEEEEERE'S Johnny!        ]()      | Cryptography     | 100    | 
 [strings 1                   ]()         | General Skills   | 100    | 
 [pipe                        ]()             | General Skills   | 110    | 
