@@ -27,3 +27,7 @@ We can just rename and open it:
 mv flag.png flag.jpg
 xdg-open flag.jpg
 ```
+
+![alt text](./flag.png)
+
+Flag: picoCTF{extensions_are_a_lie}
