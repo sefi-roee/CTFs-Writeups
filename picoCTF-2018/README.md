@@ -13,8 +13,8 @@ Title                                                                       	| C
 [grep 1                      ](./General/05-grep_1-75/solution.md)          	| General Skills   | 75     | `picoCTF{grep_and_you_will_find_cdf2e7c2}`
 [net cat                     ](./General/06-netcat-75/solution.md)          	| General Skills   | 75     | `picoCTF{NEtcat_iS_a_NEcESSiTy_0b4c4174}`
 [HEEEEEEERE'S Johnny!        ](./Crypto/03-heeeeeeers_johnny-100/solution.md))	| Cryptography     | 100    | `picoCTF{J0hn_1$_R1pp3d_4e5aa29e}`
-[strings 1                   ]()         | General Skills   | 100    | 
-[pipe                        ]()             | General Skills   | 110    | 
+[strings 1                   ](./General/07-strings-100/solution.md)         	| General Skills   | 100    | `picoCTF{sTrIngS_sAVeS_Time_3f712a28}`
+[pipe                        ](./General/08-pipe-110/solution.md)            	| General Skills   | 110    | `picoCTF{almost_like_mario_b797f2b3}`
 [Inspect Me                  ]()                | Web              | 125    | 
 [grep 2                      ]()       | General Skills   | 125    | 
 [Aca-Shell-A                 ]()        | General Skills   | 150    | 
