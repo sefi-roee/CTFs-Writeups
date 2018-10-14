@@ -12,7 +12,7 @@ Title                                                                       				
 [Crypto Warmup 2             ](./Crypto/02-warmup_2-75/solution.md)         				| Cryptography     | 75     | `picoCTF{this_is_crypto!}`
 [grep 1                      ](./General/05-grep_1-75/solution.md)          				| General Skills   | 75     | `picoCTF{grep_and_you_will_find_cdf2e7c2}`
 [net cat                     ](./General/06-netcat-75/solution.md)          				| General Skills   | 75     | `picoCTF{NEtcat_iS_a_NEcESSiTy_0b4c4174}`
-[HEEEEEEERE'S Johnny!        ](./Crypto/03-heeeeeeers_johnny-100/solution.md))				| Cryptography     | 100    | `picoCTF{J0hn_1$_R1pp3d_4e5aa29e}`
+[HEEEEEEERE'S Johnny!        ](./Crypto/03-heeeeeeers_johnny-100/solution.md)				| Cryptography     | 100    | `picoCTF{J0hn_1$_R1pp3d_4e5aa29e}`
 [strings                   	 ](./General/07-strings-100/solution.md)         				| General Skills   | 100    | `picoCTF{sTrIngS_sAVeS_Time_3f712a28}`
 [pipe                        ](./General/08-pipe-110/solution.md)            				| General Skills   | 110    | `picoCTF{almost_like_mario_b797f2b3}`
 [Inspect Me                  ](./Web/01-inspect_me-125/solution.md)             			| Web              | 125    | `picoCTF{ur_4_real_1nspect0r_g4dget_9dd3b33c}`
@@ -26,7 +26,7 @@ Title                                                                       				
 [admin panel                 ](./Forensics/06-admin_panel-150/solution.md)           		| Forensics        | 150    | `picoCTF{n0ts3cur3_b186631d}`
 [assembly-0                  ](./Reversing/03-assembly_0-150/solution.md)        			| Reversing        | 150    | `\xb0`
 [buffer overflow 0           ](./Binary/01-buffer_overflow_0-150/solution.md)   			| Binary Exploit   | 150    | `picoCTF{ov3rfl0ws_ar3nt_that_bad_b49d36d2}`
-[caesar cipher 1             ]()    | Cryptography     | 150    | 
+[caesar cipher 1             ](./Crypto/04-caesar_cipher_1-150/solution.md)    				| Cryptography     | 150    | `picoCTF{justagoodoldcaesarciphertobrvmri}`
 [environ                     ]()        | General Skills   | 150    | 
 [hertz                       ]()           | Cryptography     | 150    | 
 [hex editor                  ]()       | Forensics        | 150    | 
