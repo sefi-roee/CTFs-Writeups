@@ -21,8 +21,8 @@ We can see hidden input with value "0" for debug. Lets change it to 1, and try t
 This is probably vulnerable to SQL injection.
 
 Lets try to login with:
-* username:	admin' -- 
-* password: <EMPTY>
+* Username:	admin' -- 
+* Password: <EMPTY>
 
 The query will be
 ```SQL
