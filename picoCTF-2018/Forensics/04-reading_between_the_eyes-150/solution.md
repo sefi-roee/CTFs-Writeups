@@ -18,7 +18,7 @@ xdg-open ./huskey.png
 
 ![husky](./husky.png)
 
-Now, lets use pulic tools to obtain the flag, try [zsteg](https://github.com/zed-0xff/zsteg).
+Now, lets use some public tools to obtain the flag, try [zsteg](https://github.com/zed-0xff/zsteg).
 ```bash
 ./zsteg/bin/zsteg ./husky.png
 

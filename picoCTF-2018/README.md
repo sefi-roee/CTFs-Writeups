@@ -22,7 +22,7 @@ Title                                                                       				
 [Desrouleaux                 ](./Forensics/03-desrouleaux-150/solution.md)        			| Forensics        | 150    | `picoCTF{J4y_s0n_d3rUUUULo_a062e5f8}`
 [Logon                       ](./Web/03-logon-150/solution.md)                   			| Web              | 150    | `picoCTF{l0g1ns_ar3nt_r34l_82e795f4}`
 [Reading between the eyes    ](./Forensics/04-reading_between_the_eyes-150/solution.md)		| Forensics        | 150    | `picoCTF{r34d1ng_b37w33n_7h3_by73s}`
-[Recovering from the snap    ]()  | Forensics        | 150    | 
+[Recovering from the snap    ](./Forensics/05-recovering_from_the_snap-15/solution.md)  	| Forensics        | 150    | `picoCTF{th3_5n4p_happ3n3d}`
 [admin panel                 ]()           | Forensics        | 150    | 
 [assembly-0                  ]()        | Reversing        | 150    | 
 [buffer overflow 0           ]()   | Binary Exploit   | 150    | 
