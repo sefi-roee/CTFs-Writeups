@@ -15,9 +15,9 @@ Title                                                                       	| C
 [HEEEEEEERE'S Johnny!        ](./Crypto/03-heeeeeeers_johnny-100/solution.md))	| Cryptography     | 100    | `picoCTF{J0hn_1$_R1pp3d_4e5aa29e}`
 [strings                   	 ](./General/07-strings-100/solution.md)         	| General Skills   | 100    | `picoCTF{sTrIngS_sAVeS_Time_3f712a28}`
 [pipe                        ](./General/08-pipe-110/solution.md)            	| General Skills   | 110    | `picoCTF{almost_like_mario_b797f2b3}`
-[Inspect Me                  ]()                | Web              | 125    | 
-[grep 2                      ]()       | General Skills   | 125    | 
-[Aca-Shell-A                 ]()        | General Skills   | 150    | 
+[Inspect Me                  ](./Web/01-inspect_me-125/solution.md)             | Web              | 125    | `picoCTF{ur_4_real_1nspect0r_g4dget_9dd3b33c}`
+[grep 2                      ](./General/09-grep_2-125/solution.md)       		| General Skills   | 125    | `picoCTF{grep_r_and_you_will_find_556620f7}`
+[Aca-Shell-A                 ](./Web/01-inspect_me-125/solution.md)        		| General Skills   | 150    | `picoCTF{CrUsHeD_It_9edaa84a}`
 [Client Side is still Bad    ]()     | Web              | 150    | 
 [Desrouleaux                 ]()        | Forensics        | 150    | 
 [Logon                       ]()                   | Web              | 150    | 
