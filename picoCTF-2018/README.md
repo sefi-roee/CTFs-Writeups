@@ -27,8 +27,8 @@ Title                                                                       				
 [assembly-0                  ](./Reversing/03-assembly_0-150/solution.md)        			| Reversing        | 150    | `\xb0`
 [buffer overflow 0           ](./Binary/01-buffer_overflow_0-150/solution.md)   			| Binary Exploit   | 150    | `picoCTF{ov3rfl0ws_ar3nt_that_bad_b49d36d2}`
 [caesar cipher 1             ](./Crypto/04-caesar_cipher_1-150/solution.md)    				| Cryptography     | 150    | `picoCTF{justagoodoldcaesarciphertobrvmri}`
-[environ                     ]()        | General Skills   | 150    | 
-[hertz                       ]()           | Cryptography     | 150    | 
+[environ                     ](./General/11-environ-150/solution.md)        				| General Skills   | 150    | `picoCTF{eNv1r0nM3nT_v4r14Bl3_fL4g_3758492}`
+[hertz                       ](./Crypto/05-hertz-150/solution.md)           				| Cryptography     | 150    | `substitution_ciphers_are_solvable_mwettfesvn`
 [hex editor                  ]()       | Forensics        | 150    | 
 [ssh-keyz                    ]() | General Skills   | 150    | 
 [Irish Name Repo             ]() | Web              | 200    | 
