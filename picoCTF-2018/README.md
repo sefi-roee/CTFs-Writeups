@@ -31,7 +31,7 @@ Title                                                                       				
 [hertz                       ](./Crypto/05-hertz-150/solution.md)           				| Cryptography     | 150    | `substitution_ciphers_are_solvable_mwettfesvn`
 [hex editor                  ](./Forensics/07-hex_editor-150/solution.md)       			| Forensics        | 150    | `picoCTF{and_thats_how_u_edit_hex_kittos_4bE5aCb8}`
 [ssh-keyz                    ](./General/12-ssh_keyz-150/solution.md) 						| General Skills   | 150    | `picoCTF{who_n33ds_p4ssw0rds_38dj21}`
-[Irish Name Repo             ]() | Web              | 200    | 
+[Irish Name Repo             ](./Web/04-irish_name_repo-200/solution.md) 					| Web              | 200    | `picoCTF{con4n_r3411y_1snt_1r1sh_c0d93e2f}`
 [Mr. Robots                  ]()        | Web              | 200    | 
 [No Login                    ]()     | Web              | 200    | 
 [Secret Agent                ]()                 | Web              | 200    | 

@@ -13,7 +13,7 @@ First we need to generate ssh key (private and public):
 ssh-keygen
 ```
 
-Next, we copy the public key ```~/.ssh/id_rsa.pub``` to ```~/.ssh/autorized_keys``` on the remote server.
+Next, we copy the public key ```~/.ssh/id_rsa.pub``` to ```~/.ssh/authorized_keys``` on the remote server.
 
 After that, we can just connect from the local PC to the remote server using ```ssh```:
 ```bash
