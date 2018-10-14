@@ -15,7 +15,7 @@ login as 1/1
 
 No flag, damn!
 
-Lets try to login ad admin
+Lets try to login as admin:
 
 ![alt text](./screenshot-2.png)
 
