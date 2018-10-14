@@ -11,6 +11,13 @@ First, we download the image
 wget https://2018shell1.picoctf.com/static/9129761dbc4bf494c47429f85ddf7434/husky.png
 ```
 
+Lets try to open it:
+```bash
+xdg-open ./huskey.png
+```
+
+![husky](./husky.png)
+
 Now, lets use pulic tools to obtain the flag, try [zsteg](https://github.com/zed-0xff/zsteg).
 ```bash
 ./zsteg/bin/zsteg ./husky.png
