@@ -29,8 +29,8 @@ Title                                                                       				
 [caesar cipher 1             ](./Crypto/04-caesar_cipher_1-150/solution.md)    				| Cryptography     | 150    | `picoCTF{justagoodoldcaesarciphertobrvmri}`
 [environ                     ](./General/11-environ-150/solution.md)        				| General Skills   | 150    | `picoCTF{eNv1r0nM3nT_v4r14Bl3_fL4g_3758492}`
 [hertz                       ](./Crypto/05-hertz-150/solution.md)           				| Cryptography     | 150    | `substitution_ciphers_are_solvable_mwettfesvn`
-[hex editor                  ]()       | Forensics        | 150    | 
-[ssh-keyz                    ]() | General Skills   | 150    | 
+[hex editor                  ](./Forensics/07-hex_editor-150/solution.md)       			| Forensics        | 150    | `picoCTF{and_thats_how_u_edit_hex_kittos_4bE5aCb8}`
+[ssh-keyz                    ](./General/12-ssh_keyz-150/solution.md) 						| General Skills   | 150    | `picoCTF{who_n33ds_p4ssw0rds_38dj21}`
 [Irish Name Repo             ]() | Web              | 200    | 
 [Mr. Robots                  ]()        | Web              | 200    | 
 [No Login                    ]()     | Web              | 200    | 
