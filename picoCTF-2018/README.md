@@ -20,7 +20,7 @@ Title                                                                       		| 
 [Aca-Shell-A                 ](./Web/01-inspect_me-125/solution.md)        			| General Skills   | 150    | `picoCTF{CrUsHeD_It_9edaa84a}`
 [Client Side is still Bad    ](./Web/02-client_side_is_still_bad-150/solution.md) 	| Web              | 150    | `picoCTF{client_is_bad_3bd366}`
 [Desrouleaux                 ](./Forensics/03-desrouleaux-150/solution.md)        	| Forensics        | 150    | `picoCTF{J4y_s0n_d3rUUUULo_a062e5f8}`
-[Logon                       ]()                   | Web              | 150    | 
+[Logon                       ](./Web/03-logon-150/solution.md)                   	| Web              | 150    | `picoCTF{l0g1ns_ar3nt_r34l_82e795f4}`
 [Reading between the eyes    ]() | Forensics        | 150    | 
 [Recovering from the snap    ]()  | Forensics        | 150    | 
 [admin panel                 ]()           | Forensics        | 150    | 
