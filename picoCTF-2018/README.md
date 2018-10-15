@@ -43,7 +43,7 @@ Title                                                                       				
 [hertz 2                     ](./Crypto/07-hertz_2-200/solution.md)           				| Cryptography     | 200    | `picoCTF{substitution_ciphers_are_too_easy_sgsgtnpibo}`
 [leak-me                     ](./Binary/03-leak_me-200/solution.md)       					| Binary Exploit   | 200    | `picoCTF{aLw4y5_Ch3cK_tHe_bUfF3r_s1z3_d1667872}`
 [now you don't               ](./Forensics/09-now_you_dont-200/solution.md)    				| Forensics        | 200    | `picoCTF{n0w_y0u_533_m3}`
-[shellcode                   ]() | Binary Exploit   | 200    | 
+[shellcode                   ](./Binary/04-shellcode-200/solution.md) 						| Binary Exploit   | 200    | `picoCTF{shellc0de_w00h00_26e91a77}`
 [what base is this?          ]()    | General Skills   | 200    | 
 [you can't see me            ]()    | General Skills   | 200    | 
 [Buttons                     ]()                    | Web              | 250    | 
