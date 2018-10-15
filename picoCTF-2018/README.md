@@ -48,7 +48,7 @@ ID 	| Title                                                                     
 46 	| [you can't see me            ](./General/14-you_cant_see_me-200/solution.md)    			| General Skills   | 200    | `picoCTF{j0hn_c3na_paparapaaaaaaa_paparapaaaaaa_cf5156ef}`
 47	| [Buttons                     ](./Web/08-buttons-250/solution.md)                    		| Web              | 250    | `picoCTF{button_button_whose_got_the_button_91f6f39a}`
 48	| [Ext Super Magic             ](./Forensics/10-ext_super_magic-250/solution.md)    		| Forensics        | 250    | `picoCTF{B3a388F85f93246B9DBA7Cc0fbBA5eE0}`
-49	| [Lying Out                   ](./Forensics/11-lying-out-250/solution.md)   				| Forensics        | 250    | `picoCTF{w4y_0ut_d2b8ece5}`
+49	| [Lying Out                   ](./Forensics/11-lying_out-250/solution.md)   				| Forensics        | 250    | `picoCTF{w4y_0ut_d2b8ece5}`
 50	| [Safe RSA                    ](./Crypto/08-safe_rsa-250/solution.md)     					| Cryptography     | 250    | `picoCTF{e_w4y_t00_sm411_34096259}`
 -	| [The Vault                   ]()   | Web              | 250    | 
 -	| [What's My Name?             ]()     | Forensics        | 250    | 
