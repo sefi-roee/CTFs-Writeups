@@ -1,5 +1,5 @@
 ID 	| Title                                                                       				| Category         | Points | Flag
----	| ----------------------------------------------------------------------------------------- | ---------------- | ------ | ------------------------------
+---	| ----------------------------------------------------------------------------------------- | ---------------- | ------ | ---
 1 	| [Forensics Warmup 1          ](./Forensics/01-warmup_1-50/solution.md)      				| Forensics        | 50     | `picoCTF{welcome_to_forensics}`
 2 	| [Forensics Warmup 2          ](./Forensics/02-warmup_2-50/solution.md)      				| Forensics        | 50     | `picoCTF{extensions_are_a_lie}`
 3 	| [General Skills Warmup 1     ](./General/01-warmup_1-50/solution.md)        				| General Skills   | 50     | `picoCTF{A}`
@@ -46,40 +46,40 @@ ID 	| Title                                                                     
 44 	| [shellcode                   ](./Binary/04-shellcode-200/solution.md) 					| Binary Exploit   | 200    | `picoCTF{shellc0de_w00h00_26e91a77}`
 45 	| [what base is this?          ](./General/13-what_base_is_this-200/solution.md)    		| General Skills   | 200    | `picoCTF{delusions_about_finding_values_3cc386de}`
 46 	| [you can't see me            ](./General/14-you_cant_see_me-200/solution.md)    			| General Skills   | 200    | `picoCTF{j0hn_c3na_paparapaaaaaaa_paparapaaaaaa_cf5156ef}`
-[Buttons                     ]()                    | Web              | 250    | 
-[Ext Super Magic             ]()    | Forensics        | 250    | 
-[Lying Out                   ]()   | Forensics        | 250    | 
-[Safe RSA                    ]()     | Cryptography     | 250    | 
-[The Vault                   ]()   | Web              | 250    | 
-[What's My Name?             ]()     | Forensics        | 250    | 
-[absolutely relative         ]()  | General Skills   | 250    | 
-[assembly-2                  ]()     | Reversing        | 250    | 
-[buffer overflow 2           ]()  | Binary Exploit   | 250    |
-[caesar cipher 2             ]()    | Cryptography     | 250    | 
-[got-2-learn-libc            ]() | Binary Exploit   | 250    |
-[rsa-madlibs                 ]()      | Cryptography     | 250    | 
-[be-quick-or-be-dead-2       ](./Reversing/08-be_quick_or_be_dead_2-275/solution.md)     	| Reversing        | 275    | `picoCTF{the_fibonacci_sequence_can_be_done_fast_7e188834}`
-[in out error                ]() | General Skills   | 275    | 
-[Artisinal Handcrafted HTTP 3]()      | Web              | 300    | 
-[SpyFi                       ]()                  | Cryptography     | 300    | 
-[echooo                      ]()                  | Binary           | 300    | 
-[learn gdb                   ]()        | General Skills   | 300    | 
-[Flaskcards                  ]()                | Web              | 350    |
-[be-quick-or-be-dead-3       ](./Reversing/09-be_quick_or_be_dead_3-350/solution.md)     	| Reversing        | 350    | `picoCTF{dynamic_pr0gramming_ftw_b5c45645}`
-[core                        ]()             | Forensics        | 350    | 
-[got-shell?                  ]()          | Binary           | 350    |
-[roulette                    ]() | General Skills   | 350    |
-[Malware Shops               ]()            | Forensics        | 400    | 
-[Radix's Terminal            ]()         | Reversing        | 400    | 
-[assembly-3                  ]()            | Reversing        | 400    | 
-[eleCTRic                    ]()         | Cryptography     | 400    |
-[fancy-alive-monitoring      ]()  | Web              | 400    |
-[store                       ]()      | General Skills   | 400    |
-[Secure Logon                ]()        | Web              | 500    |
-[script me                   ]()             | General Skills   | 500    |
-[LoadSomeBits                ]()             | Forensics        | 550    |
-[assembly-4                  ]()             | Reversing        | 550    | 
-[Help Me Reset               ]()             | Web              | 600    |
-[A Simple Question           ]()        | Web              | 650    | 
-[LambDash 3                  ]()             | Web              | 800    |
-[Dog or Frog                 ]() | General Skills   | 900    |
+-	| [Buttons                     ]()                    | Web              | 250    | 
+-	| [Ext Super Magic             ]()    | Forensics        | 250    | 
+-	| [Lying Out                   ]()   | Forensics        | 250    | 
+-	| [Safe RSA                    ]()     | Cryptography     | 250    | 
+-	| [The Vault                   ]()   | Web              | 250    | 
+-	| [What's My Name?             ]()     | Forensics        | 250    | 
+-	| [absolutely relative         ]()  | General Skills   | 250    | 
+-	| [assembly-2                  ]()     | Reversing        | 250    | 
+-	| [buffer overflow 2           ]()  | Binary Exploit   | 250    |
+-	| [caesar cipher 2             ]()    | Cryptography     | 250    | 
+-	| [got-2-learn-libc            ]() | Binary Exploit   | 250    |
+-	| [rsa-madlibs                 ]()      | Cryptography     | 250    | 
+-	| [be-quick-or-be-dead-2       ](./Reversing/08-be_quick_or_be_dead_2-275/solution.md)     	| Reversing        | 275    | `-	| picoCTF{the_fibonacci_sequence_can_be_done_fast_7e188834}`
+-	| [in out error                ]() | General Skills   | 275    | 
+-	| [Artisinal Handcrafted HTTP 3]()      | Web              | 300    | 
+-	| [SpyFi                       ]()                  | Cryptography     | 300    | 
+-	| [echooo                      ]()                  | Binary           | 300    | 
+-	| [learn gdb                   ]()        | General Skills   | 300    | 
+-	| [Flaskcards                  ]()                | Web              | 350    |
+-	| [be-quick-or-be-dead-3       ](./Reversing/09-be_quick_or_be_dead_3-350/solution.md)     	| Reversing        | 350    | `-	| picoCTF{dynamic_pr0gramming_ftw_b5c45645}`
+-	| [core                        ]()             | Forensics        | 350    | 
+-	| [got-shell?                  ]()          | Binary           | 350    |
+-	| [roulette                    ]() | General Skills   | 350    |
+-	| [Malware Shops               ]()            | Forensics        | 400    | 
+-	| [Radix's Terminal            ]()         | Reversing        | 400    | 
+-	| [assembly-3                  ]()            | Reversing        | 400    | 
+-	| [eleCTRic                    ]()         | Cryptography     | 400    |
+-	| [fancy-alive-monitoring      ]()  | Web              | 400    |
+-	| [store                       ]()      | General Skills   | 400    |
+-	| [Secure Logon                ]()        | Web              | 500    |
+-	| [script me                   ]()             | General Skills   | 500    |
+-	| [LoadSomeBits                ]()             | Forensics        | 550    |
+-	| [assembly-4                  ]()             | Reversing        | 550    | 
+-	| [Help Me Reset               ]()             | Web              | 600    |
+-	| [A Simple Question           ]()        | Web              | 650    | 
+-	| [LambDash 3                  ]()             | Web              | 800    |
+-	| [Dog or Frog                 ]() | General Skills   | 900    |
