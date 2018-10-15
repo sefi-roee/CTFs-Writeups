@@ -29,7 +29,6 @@ asm0:
 	mov	esp,ebp
 	pop	ebp	
 	ret
-
 ```
 
 We can see that the function get 2 parameters: [ebp+0x8], [ebp+0xc].

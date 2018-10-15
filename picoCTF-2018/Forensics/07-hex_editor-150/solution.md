@@ -27,7 +27,7 @@ xdg-open ./hex_editor.jpg
 ![hex editor](./hex_editor.jpg)
 
 
-Nothin... lets print the contents of this file:
+Nothing... lets print the contents of this file:
 ```bash
 xxd ./hex_editor.jpg
 
