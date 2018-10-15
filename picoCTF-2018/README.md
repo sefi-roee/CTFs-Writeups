@@ -65,7 +65,7 @@ Title                                                                       				
 [echooo                      ]()                  | Binary           | 300    | 
 [learn gdb                   ]()        | General Skills   | 300    | 
 [Flaskcards                  ]()                | Web              | 350    |
-[be-quick-or-be-dead-3       ](./Reversing/08-be_quick_or_be_dead_3-350/solution.md)     	| Reversing        | 350    | `picoCTF{dynamic_pr0gramming_ftw_b5c45645}`
+[be-quick-or-be-dead-3       ](./Reversing/09-be_quick_or_be_dead_3-350/solution.md)     	| Reversing        | 350    | `picoCTF{dynamic_pr0gramming_ftw_b5c45645}`
 [core                        ]()             | Forensics        | 350    | 
 [got-shell?                  ]()          | Binary           | 350    |
 [roulette                    ]() | General Skills   | 350    |
