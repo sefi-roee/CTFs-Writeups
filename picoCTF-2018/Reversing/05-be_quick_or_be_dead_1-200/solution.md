@@ -25,7 +25,7 @@ Lets try to understand whats going on there, we can use [IDA](https://www.hex-ra
 ![screenshot 2](./screenshot-2.png)
 ![screenshot 3](./screenshot-3.png)
 
-```set_timer()``` sets 1 sec timer with callback function that exists the program.
+```set_timer()``` sets 1 sec timer with callback function that exits the program.
 
 After that, ```get_key()``` tried to calcualte the key (```calculate_key()```), which is being passed to ```print_flag()``` which in turn decrypts the flag and prints it.
 
