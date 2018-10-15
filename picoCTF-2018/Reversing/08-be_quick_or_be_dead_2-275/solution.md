@@ -26,9 +26,10 @@ Again, too slow. Lets try to understand whats going on there, we can use [IDA](h
 ![screenshot 1](./screenshot-1.png)
 ![screenshot 2](./screenshot-2.png)
 
-We can try the same approach from [be_quick_or_be_dead_1](../be_quick_or_be_dead_1/solution.md), but it takes to long...
+We can try the same approach from [be_quick_or_be_dead_1](../be_quick_or_be_dead_1-200/solution.md), but it takes to long...
 
 Lets take a look at the ```calculate_key()``` function:
+
 ![screenshot 3](./screenshot-3.png)
 ![screenshot 4](./screenshot-4.png)
 
@@ -38,7 +39,7 @@ Lets do this again with gdb...
 
 This time, we will just set ```$eax``` to "Fibonacci 0x402" (0xf70a9b58)
 
-Lets try the second way, pass this gdbinit to gdb (look at [this](https://sourceware.org/gdb/onlinedocs/gdb/Init-File-in-the-Current-Directory.html))
+Use this gdbinit to gdb (look at [this](https://sourceware.org/gdb/onlinedocs/gdb/Init-File-in-the-Current-Directory.html))
 ```bash
 break *0x00000000004007e1
 run

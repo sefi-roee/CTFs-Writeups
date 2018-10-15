@@ -1,0 +1,6 @@
+break *0x0000000000400828
+run
+set $rip = 0x000000000040082d
+set $eax = 2653079950
+continue
+quit
