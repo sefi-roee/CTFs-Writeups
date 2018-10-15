@@ -50,8 +50,8 @@ ID 	| Title                                                                     
 48	| [Ext Super Magic             ](./Forensics/10-ext_super_magic-250/solution.md)    		| Forensics        | 250    | `picoCTF{B3a388F85f93246B9DBA7Cc0fbBA5eE0}`
 49	| [Lying Out                   ](./Forensics/11-lying_out-250/solution.md)   				| Forensics        | 250    | `picoCTF{w4y_0ut_d2b8ece5}`
 50	| [Safe RSA                    ](./Crypto/08-safe_rsa-250/solution.md)     					| Cryptography     | 250    | `picoCTF{e_w4y_t00_sm411_34096259}`
--	| [The Vault                   ]()   | Web              | 250    | 
--	| [What's My Name?             ]()     | Forensics        | 250    | 
+51	| [The Vault                   ](./Web/09-the_valut-250/solution.md)   						| Web              | 250    | `picoCTF{w3lc0m3_t0_th3_vau1t_e4ca2258}`
+52	| [What's My Name?             ](./Forensics/12-whats_my_name-250/solution.md)     			| Forensics        | 250    | `picoCTF{w4lt3r_wh1t3_2d6d3c6c75aa3be7f42debed8ad16e3b}`
 -	| [absolutely relative         ]()  | General Skills   | 250    | 
 -	| [assembly-2                  ]()     | Reversing        | 250    | 
 -	| [buffer overflow 2           ]()  | Binary Exploit   | 250    |
