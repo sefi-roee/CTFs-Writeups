@@ -18,7 +18,7 @@ Lets try to open the file:
 xdg-open ./2018.png
 ```
 
-![hex editor](./2018.jpg)
+![hex editor](./2018.png)
 
 
 Not helping us... lets try to extract some meta data. We can use [exiftool](https://linoxide.com/linux-how-to/install-use-exiftool-linux-ubuntu-centos/)
