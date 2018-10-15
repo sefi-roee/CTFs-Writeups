@@ -1,0 +1,4 @@
+break *0x0000000000400845
+run
+set $rip = 0x000000000040084f
+continue

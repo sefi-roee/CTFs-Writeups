@@ -37,7 +37,7 @@ Title                                                                       				
 [Secret Agent                ](./Web/07-secret_agent-200/solution.md)                 		| Web              | 200    | `picoCTF{s3cr3t_ag3nt_m4n_ac87e6a7}`
 [Truly an Artist             ](./Forensics/08-truly_an_artist-200/solution.md)         		| Forensics        | 200    | `picoCTF{look_in_image_13509d38}`
 [assembly-1                  ](./Reversing/04-assembly_1-200/solution.md)        			| Reversing        | 200    | `0x73`
-[be-quick-or-be-dead-1       ]()     | Reversing        | 200    | 
+[be-quick-or-be-dead-1       ](./Reversing/05-be_quick_or_be_dead_1-200/solution.md)     	| Reversing        | 200    | `picoCTF{why_bother_doing_unnecessary_computation_fedbb737}`
 [blaise's cipher             ]()       | Cryptography     | 200    | 
 [buffer overflow 1           ]() | Binary Exploit   | 200    | 
 [hertz 2                     ]()           | Cryptography     | 200    | 
