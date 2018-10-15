@@ -1,0 +1,65 @@
+# Problem
+Now that you know about RSA can you help us decrypt this [ciphertext](https://2018shell1.picoctf.com/static/ab772a2740031b404eba8d0cc76b43f2/ciphertext)? We don't have the decryption key but something about those values looks funky..
+
+## Hints:
+RSA [tutorial](https://en.wikipedia.org/wiki/RSA_(cryptosystem))
+
+Hmmm that e value looks kinda small right?
+
+These are some really big numbers.. Make sure you're using functions that don't lose any precision!
+
+## Solution:
+
+Lets download the ciphertext:
+```bash
+wget https://2018shell1.picoctf.com/static/ab772a2740031b404eba8d0cc76b43f2/ciphertext
+cat ./ciphertext
+
+N: 374159235470172130988938196520880526947952521620932362050308663243595788308583992120881359365258949723819911758198013202644666489247987314025169670926273213367237020188587742716017314320191350666762541039238241984934473188656610615918474673963331992408750047451253205158436452814354564283003696666945950908549197175404580533132142111356931324330631843602412540295482841975783884766801266552337129105407869020730226041538750535628619717708838029286366761470986056335230171148734027536820544543251801093230809186222940806718221638845816521738601843083746103374974120575519418797642878012234163709518203946599836959811
+e: 3
+
+ciphertext (c): 2205316413931134031046440767620541984801091216351222789180535786851451917462804449135087209259828503848304180574549372616172217553002988241140344023060716738565104171296716554122734607654513009667720334889869007276287692856645210293194853 
+```
+
+Lets try the most simple approach, take the cube root of the ciphertext, and check if we got the plaintext (code from [here](https://stackoverflow.com/questions/356090/how-to-compute-the-nth-root-of-a-very-big-integer))
+```python
+def find_invpow(x,n):
+    """Finds the integer component of the n'th root of x,
+    an integer such that y ** n <= x < (y + 1) ** n.
+    """
+    high = 1
+    while high ** n < x:
+        high *= 2
+    low = high/2
+    while low < high:
+        mid = (low + high) // 2
+        if low < mid and mid**n < x:
+            low = mid
+        elif high > mid and mid**n > x:
+            high = mid
+        else:
+            return mid
+    return mid + 1
+
+ciphertext = 2205316413931134031046440767620541984801091216351222789180535786851451917462804449135087209259828503848304180574549372616172217553002988241140344023060716738565104171296716554122734607654513009667720334889869007276287692856645210293194853
+e = 3
+
+plaintext = find_invpow(ciphertext, e)
+
+assert(plaintext**e == ciphertext)
+
+print plaintext
+
+13016382529449106065839070830454998857466392684017754632233814825405652260960637
+```
+
+Now lets convert this to hex and then to ASCII:
+```python
+import binascii
+
+plaintext = 13016382529449106065839070830454998857466392684017754632233814825405652260960637
+print 'In hex: {}'.format(hex(plaintext))
+print binascii.unhexlify(hex(plaintext)[2:-1])
+```
+
+Flag: picoCTF{e_w4y_t00_sm411_34096259}
