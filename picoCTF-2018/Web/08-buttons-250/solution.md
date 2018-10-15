@@ -11,7 +11,7 @@ Lets try to view the website:
 ![screenshot 1](./screenshot-1.png)
 ![screenshot 2](./screenshot-2.png)
 
-Lets try create a [POST](https://en.wikipedia.org/wiki/POST_(HTTP)) request to button2.php. We can use curl.
+Lets try create a [POST](https://en.wikipedia.org/wiki/POST_(HTTP)) request to button2.php. We can use [curl](https://curl.haxx.se/).
 
 ```bash
 curl -X POST http://2018shell1.picoctf.com:65107/button2.php

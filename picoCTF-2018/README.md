@@ -47,7 +47,7 @@ ID 	| Title                                                                     
 45 	| [what base is this?          ](./General/13-what_base_is_this-200/solution.md)    		| General Skills   | 200    | `picoCTF{delusions_about_finding_values_3cc386de}`
 46 	| [you can't see me            ](./General/14-you_cant_see_me-200/solution.md)    			| General Skills   | 200    | `picoCTF{j0hn_c3na_paparapaaaaaaa_paparapaaaaaa_cf5156ef}`
 47	| [Buttons                     ](./Web/08-buttons-250/solution.md)                    		| Web              | 250    | `picoCTF{button_button_whose_got_the_button_91f6f39a}`
--	| [Ext Super Magic             ]()    | Forensics        | 250    | 
+48	| [Ext Super Magic             ](./Forensics/10-ext_super_magic-250/solution.md)    		| Forensics        | 250    | `picoCTF{B3a388F85f93246B9DBA7Cc0fbBA5eE0}`
 -	| [Lying Out                   ]()   | Forensics        | 250    | 
 -	| [Safe RSA                    ]()     | Cryptography     | 250    | 
 -	| [The Vault                   ]()   | Web              | 250    | 
