@@ -42,7 +42,7 @@ Title                                                                       				
 [buffer overflow 1           ](./Binary/02-buffer_overflow_1-200/solution.md)  				| Binary Exploit   | 200    | `picoCTF{addr3ss3s_ar3_3asyd69e032d}`
 [hertz 2                     ](./Crypto/07-hertz_2-200/solution.md)           				| Cryptography     | 200    | `picoCTF{substitution_ciphers_are_too_easy_sgsgtnpibo}`
 [leak-me                     ](./Binary/03-leak_me-200/solution.md)       					| Binary Exploit   | 200    | `picoCTF{aLw4y5_Ch3cK_tHe_bUfF3r_s1z3_d1667872}`
-[now you don't               ]()    | Forensics        | 200    | 
+[now you don't               ]()    | Forensics        | 200    | `picoCTF{n0w_y0u_533_m3}`
 [shellcode                   ]() | Binary Exploit   | 200    | 
 [what base is this?          ]()    | General Skills   | 200    | 
 [you can't see me            ]()    | General Skills   | 200    | 

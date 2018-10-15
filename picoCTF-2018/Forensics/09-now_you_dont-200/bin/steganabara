@@ -1,0 +1,2 @@
+#!/bin/bash -e
+java -cp /home/roee/CTFs-Writeups/picoCTF-2018/Forensics/09-now_you_dont-200/Steganabara/bin steganabara.Steganabara
