@@ -39,7 +39,7 @@ Lets do this again with gdb...
 
 This time, we will just set ```$eax``` to "Fibonacci 0x402" (0xf70a9b58)
 
-Use this gdbinit to gdb (look at [this](https://sourceware.org/gdb/onlinedocs/gdb/Init-File-in-the-Current-Directory.html))
+Use this gdbinit script:
 ```bash
 break *0x00000000004007e1
 run

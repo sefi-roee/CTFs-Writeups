@@ -47,7 +47,7 @@ print f[-1] % 2**32
 
 The key is: ```2653079950```
 
-Use this gdbinit to gdb (look at [this](https://sourceware.org/gdb/onlinedocs/gdb/Init-File-in-the-Current-Directory.html))
+Use this gdbinit:
 ```bash
 break *0x0000000000400828
 run
