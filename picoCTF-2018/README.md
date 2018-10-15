@@ -41,7 +41,7 @@ Title                                                                       				
 [blaise's cipher             ](./Crypto/06-blaises_cipher-200/solution.md)       			| Cryptography     | 200    | `picoCTF{v1gn3r3_c1ph3rs_ar3n7_bad_cdf08bf0}`
 [buffer overflow 1           ](./Binary/02-buffer_overflow_1-200/solution.md)  				| Binary Exploit   | 200    | `picoCTF{addr3ss3s_ar3_3asyd69e032d}`
 [hertz 2                     ](./Crypto/07-hertz_2-200/solution.md)           				| Cryptography     | 200    | `picoCTF{substitution_ciphers_are_too_easy_sgsgtnpibo}`
-[leak-me                     ]()       | Binary Exploit   | 200    | 
+[leak-me                     ](./Binary/03-leak_me-200/solution.md)       					| Binary Exploit   | 200    | `picoCTF{aLw4y5_Ch3cK_tHe_bUfF3r_s1z3_d1667872}`
 [now you don't               ]()    | Forensics        | 200    | 
 [shellcode                   ]() | Binary Exploit   | 200    | 
 [what base is this?          ]()    | General Skills   | 200    | 
