@@ -1,5 +1,5 @@
 ID 	| Title                                                                       				| Category         | Points | Flag
-	| ----------------------------------------------------------------------------------------- | ---------------- | ------ | ------------------------------
+---	| ----------------------------------------------------------------------------------------- | ---------------- | ------ | ------------------------------
 1 	| [Forensics Warmup 1          ](./Forensics/01-warmup_1-50/solution.md)      				| Forensics        | 50     | `picoCTF{welcome_to_forensics}`
 2 	| [Forensics Warmup 2          ](./Forensics/02-warmup_2-50/solution.md)      				| Forensics        | 50     | `picoCTF{extensions_are_a_lie}`
 3 	| [General Skills Warmup 1     ](./General/01-warmup_1-50/solution.md)        				| General Skills   | 50     | `picoCTF{A}`
