@@ -44,8 +44,8 @@ Title                                                                       				
 [leak-me                     ](./Binary/03-leak_me-200/solution.md)       					| Binary Exploit   | 200    | `picoCTF{aLw4y5_Ch3cK_tHe_bUfF3r_s1z3_d1667872}`
 [now you don't               ](./Forensics/09-now_you_dont-200/solution.md)    				| Forensics        | 200    | `picoCTF{n0w_y0u_533_m3}`
 [shellcode                   ](./Binary/04-shellcode-200/solution.md) 						| Binary Exploit   | 200    | `picoCTF{shellc0de_w00h00_26e91a77}`
-[what base is this?          ]()    | General Skills   | 200    | 
-[you can't see me            ]()    | General Skills   | 200    | 
+[what base is this?          ](./General/13-what_base_is_this-200/solution.md)    			| General Skills   | 200    | `picoCTF{delusions_about_finding_values_3cc386de}`
+[you can't see me            ](./General/14-you_cant_see_me-200/solution.md)    			| General Skills   | 200    | `picoCTF{j0hn_c3na_paparapaaaaaaa_paparapaaaaaa_cf5156ef}`
 [Buttons                     ]()                    | Web              | 250    | 
 [Ext Super Magic             ]()    | Forensics        | 250    | 
 [Lying Out                   ]()   | Forensics        | 250    | 
