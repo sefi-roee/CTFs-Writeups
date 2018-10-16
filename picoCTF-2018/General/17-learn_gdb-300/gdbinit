@@ -1,0 +1,3 @@
+break *0x00000000004008c8
+run
+print (char *)flag_buf

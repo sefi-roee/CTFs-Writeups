@@ -64,9 +64,9 @@ ID 	| Title                                                                     
 62	| [Artisinal Handcrafted HTTP 3](./Web/10-artisinal_handcrafted_http_3-300/solution.md)     | Web              | 300    | `picoCTF{0nLY_Us3_n0N_GmO_xF3r_pR0tOcol5_2e14}`
 63	| [SpyFi                       ](./Crypto/11-spyfi-300/solution.md)                  		| Cryptography     | 300    | `picoCTF{@g3nt6_1$_th3_c00l3$t_8107740}`
 64	| [echooo                      ](./Binary/07-echooo-300/solution.md)                  		| Binary           | 300    | `picoCTF{foRm4t_stRinGs_aRe_DanGer0us_3f8bced3}`
--	| [learn gdb                   ]()        | General Skills   | 300    | 
--	| [Flaskcards                  ]()                | Web              | 350    |
--	| [be-quick-or-be-dead-3       ](./Reversing/09-be_quick_or_be_dead_3-350/solution.md)     	| Reversing        | 350    | `-	| picoCTF{dynamic_pr0gramming_ftw_b5c45645}`
+65	| [learn gdb                   ](./General/17-learn_gdb-300/solution.md)        			| General Skills   | 300    | `picoCTF{gDb_iS_sUp3r_u53fuL_efaa2b29}` 
+66	| [Flaskcards                  ](./Web/11-flaskcards-350/solution.md)                		| Web              | 350    | `picoCTF{secret_keys_to_the_kingdom_2a7bf92c}`
+67	| [be-quick-or-be-dead-3       ](./Reversing/09-be_quick_or_be_dead_3-350/solution.md)     	| Reversing        | 350    | `picoCTF{dynamic_pr0gramming_ftw_b5c45645}`
 -	| [core                        ]()             | Forensics        | 350    | 
 -	| [got-shell?                  ]()          | Binary           | 350    |
 -	| [roulette                    ]() | General Skills   | 350    |
