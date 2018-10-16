@@ -56,10 +56,10 @@ ID 	| Title                                                                     
 54	| [absolutely relative         ](./General/15-absolutely_relative-250/solution.md)  		| General Skills   | 250    | `picoCTF{3v3r1ng_1$_r3l3t1v3_befc0ce1}`
 55	| [assembly-2                  ](./Reversing/07-assembly_2-250/solution.md)     			| Reversing        | 250    | `0x129`
 56	| [buffer overflow 2           ](./Binary/05-buffer_overflow_2-250/solution.md)  			| Binary Exploit   | 250    | `picoCTF{addr3ss3s_ar3_3asy1b78b0d8}`
--	| [caesar cipher 2             ]()    | Cryptography     | 250    | 
--	| [got-2-learn-libc            ]() | Binary Exploit   | 250    |
--	| [rsa-madlibs                 ]()      | Cryptography     | 250    | 
--	| [be-quick-or-be-dead-2       ](./Reversing/08-be_quick_or_be_dead_2-275/solution.md)     	| Reversing        | 275    | `-	| picoCTF{the_fibonacci_sequence_can_be_done_fast_7e188834}`
+57	| [caesar cipher 2             ](./Crypto/09-caesar_cipher_2-250/solution.md)  			    | Cryptography     | 250    | `picoCTF{cAesaR_CiPhErS_juST_aREnT_sEcUrE}`
+58	| [got-2-learn-libc            ](./Binary/06-got_2_learn_libc-250/solution.md) 				| Binary Exploit   | 250    | `picoCTF{syc4al1s_4rE_uS3fUl_6319ec91}`
+59	| [rsa-madlibs                 ](./Crypto/10-rsa_madlibs-250/solution.md)      				| Cryptography     | 250    | `Flag: picoCTF{d0_u_kn0w_th3_w@y_2_RS@_c6724916}`
+60	| [be-quick-or-be-dead-2       ](./Reversing/08-be_quick_or_be_dead_2-275/solution.md)     	| Reversing        | 275    | `picoCTF{the_fibonacci_sequence_can_be_done_fast_7e188834}`
 -	| [in out error                ]() | General Skills   | 275    | 
 -	| [Artisinal Handcrafted HTTP 3]()      | Web              | 300    | 
 -	| [SpyFi                       ]()                  | Cryptography     | 300    | 
