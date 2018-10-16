@@ -60,10 +60,10 @@ ID 	| Title                                                                     
 58	| [got-2-learn-libc            ](./Binary/06-got_2_learn_libc-250/solution.md) 				| Binary Exploit   | 250    | `picoCTF{syc4al1s_4rE_uS3fUl_6319ec91}`
 59	| [rsa-madlibs                 ](./Crypto/10-rsa_madlibs-250/solution.md)      				| Cryptography     | 250    | `Flag: picoCTF{d0_u_kn0w_th3_w@y_2_RS@_c6724916}`
 60	| [be-quick-or-be-dead-2       ](./Reversing/08-be_quick_or_be_dead_2-275/solution.md)     	| Reversing        | 275    | `picoCTF{the_fibonacci_sequence_can_be_done_fast_7e188834}`
--	| [in out error                ]() | General Skills   | 275    | 
--	| [Artisinal Handcrafted HTTP 3]()      | Web              | 300    | 
--	| [SpyFi                       ]()                  | Cryptography     | 300    | 
--	| [echooo                      ]()                  | Binary           | 300    | 
+61	| [in out error                ](./General/16-in_out_error-275/solution.md) 				| General Skills   | 275    | `picoCTF{p1p1ng_1S_4_7h1ng_b6f5a788}`
+-	| [Artisinal Handcrafted HTTP 3](./Web/10-artisinal_handcrafted_http_3-300/solution.md)     | Web              | 300    | `picoCTF{0nLY_Us3_n0N_GmO_xF3r_pR0tOcol5_2e14}`
+-	| [SpyFi                       ](./Crypto/11-spyfi-300/solution.md)                  		| Cryptography     | 300    | `picoCTF{@g3nt6_1$_th3_c00l3$t_8107740}`
+-	| [echooo                      ](./Binary/07-echooo-300/solution.md)                  		| Binary           | 300    | `picoCTF{foRm4t_stRinGs_aRe_DanGer0us_3f8bced3}`
 -	| [learn gdb                   ]()        | General Skills   | 300    | 
 -	| [Flaskcards                  ]()                | Web              | 350    |
 -	| [be-quick-or-be-dead-3       ](./Reversing/09-be_quick_or_be_dead_3-350/solution.md)     	| Reversing        | 350    | `-	| picoCTF{dynamic_pr0gramming_ftw_b5c45645}`
