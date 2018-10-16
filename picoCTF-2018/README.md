@@ -54,7 +54,7 @@ ID 	| Title                                                                     
 52	| [The Vault                   ](./Web/09-the_vault-250/solution.md)   						| Web              | 250    | `picoCTF{w3lc0m3_t0_th3_vau1t_e4ca2258}`
 53	| [What's My Name?             ](./Forensics/12-whats_my_name-250/solution.md)     			| Forensics        | 250    | `picoCTF{w4lt3r_wh1t3_2d6d3c6c75aa3be7f42debed8ad16e3b}`
 54	| [absolutely relative         ](./General/15-absolutely_relative-250/solution.md)  		| General Skills   | 250    | `picoCTF{3v3r1ng_1$_r3l3t1v3_befc0ce1}`
-55	| [assembly-2                  ](./Reversing/07-assembly_1-250/solution.md)     			| Reversing        | 250    | `0x129`
+55	| [assembly-2                  ](./Reversing/07-assembly_2-250/solution.md)     			| Reversing        | 250    | `0x129`
 56	| [buffer overflow 2           ](./Binary/05-buffer_overflow_2-250/solution.md)  			| Binary Exploit   | 250    | `picoCTF{addr3ss3s_ar3_3asy1b78b0d8}`
 -	| [caesar cipher 2             ]()    | Cryptography     | 250    | 
 -	| [got-2-learn-libc            ]() | Binary Exploit   | 250    |
