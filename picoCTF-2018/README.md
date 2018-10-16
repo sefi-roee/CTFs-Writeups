@@ -66,7 +66,9 @@ ID 	| Title                                                                     
 64	| [echooo                      ](./Binary/07-echooo-300/solution.md)                  		| Binary           | 300    | `picoCTF{foRm4t_stRinGs_aRe_DanGer0us_3f8bced3}`
 65	| [learn gdb                   ](./General/17-learn_gdb-300/solution.md)        			| General Skills   | 300    | `picoCTF{gDb_iS_sUp3r_u53fuL_efaa2b29}` 
 66	| [Flaskcards                  ](./Web/11-flaskcards-350/solution.md)                		| Web              | 350    | `picoCTF{secret_keys_to_the_kingdom_2a7bf92c}`
-67	| [be-quick-or-be-dead-3       ](./Reversing/09-be_quick_or_be_dead_3-350/solution.md)     	| Reversing        | 350    | `picoCTF{dynamic_pr0gramming_ftw_b5c45645}`
+67  | [Super Safe RSA              ](./Crypto/12-super_safe_rsa-350/solution.md)				| Cryptography	   | 350    | `picoCTF{us3_l@rg3r_pr1m3$_5327}`
+68  | [authenticate                ](./Binary/08-authenticate-350/solution.md) 					| Binary Exploit   | 350    | `picoCTF{y0u_4r3_n0w_aUtH3nt1c4t3d_d29a706d}`
+69	| [be-quick-or-be-dead-3       ](./Reversing/09-be_quick_or_be_dead_3-350/solution.md)     	| Reversing        | 350    | `picoCTF{dynamic_pr0gramming_ftw_b5c45645}`
 -	| [core                        ]()             | Forensics        | 350    | 
 -	| [got-shell?                  ]()          | Binary           | 350    |
 -	| [roulette                    ]() | General Skills   | 350    |

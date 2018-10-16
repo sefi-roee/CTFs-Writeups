@@ -1,0 +1,4 @@
+break *0x080487f9
+run < <(echo "AAAA.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x")
+x/12wx $esp
+print (int *)&authenticated
