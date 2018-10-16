@@ -58,7 +58,7 @@ ID 	| Title                                                                     
 56	| [buffer overflow 2           ](./Binary/05-buffer_overflow_2-250/solution.md)  			| Binary Exploit   | 250    | `picoCTF{addr3ss3s_ar3_3asy1b78b0d8}`
 57	| [caesar cipher 2             ](./Crypto/09-caesar_cipher_2-250/solution.md)  			    | Cryptography     | 250    | `picoCTF{cAesaR_CiPhErS_juST_aREnT_sEcUrE}`
 58	| [got-2-learn-libc            ](./Binary/06-got_2_learn_libc-250/solution.md) 				| Binary Exploit   | 250    | `picoCTF{syc4al1s_4rE_uS3fUl_6319ec91}`
-59	| [rsa-madlibs                 ](./Crypto/10-rsa_madlibs-250/solution.md)      				| Cryptography     | 250    | `Flag: picoCTF{d0_u_kn0w_th3_w@y_2_RS@_c6724916}`
+59	| [rsa-madlibs                 ](./Crypto/10-rsa_madlibs-250/solution.md)      				| Cryptography     | 250    | `picoCTF{d0_u_kn0w_th3_w@y_2_RS@_c6724916}`
 60	| [be-quick-or-be-dead-2       ](./Reversing/08-be_quick_or_be_dead_2-275/solution.md)     	| Reversing        | 275    | `picoCTF{the_fibonacci_sequence_can_be_done_fast_7e188834}`
 61	| [in out error                ](./General/16-in_out_error-275/solution.md) 				| General Skills   | 275    | `picoCTF{p1p1ng_1S_4_7h1ng_b6f5a788}`
 62	| [Artisinal Handcrafted HTTP 3](./Web/10-artisinal_handcrafted_http_3-300/solution.md)     | Web              | 300    | `picoCTF{0nLY_Us3_n0N_GmO_xF3r_pR0tOcol5_2e14}`
