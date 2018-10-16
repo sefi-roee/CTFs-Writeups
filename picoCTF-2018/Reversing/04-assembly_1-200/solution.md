@@ -54,7 +54,7 @@ part_d:
 We can see that the function takes one parameter: [ebp+0x8].
 
 Lets try to reverse it:
-```C
+```c
 asm1(int v) {
 	if (v > 0x98)
 		GOTO part_a

@@ -43,18 +43,19 @@ ID 	| Title                                                                     
 41 	| [hertz 2                     ](./Crypto/07-hertz_2-200/solution.md)           			| Cryptography     | 200    | `picoCTF{substitution_ciphers_are_too_easy_sgsgtnpibo}`
 42 	| [leak-me                     ](./Binary/03-leak_me-200/solution.md)       				| Binary Exploit   | 200    | `picoCTF{aLw4y5_Ch3cK_tHe_bUfF3r_s1z3_d1667872}`
 43 	| [now you don't               ](./Forensics/09-now_you_dont-200/solution.md)    			| Forensics        | 200    | `picoCTF{n0w_y0u_533_m3}`
-44 	| [shellcode                   ](./Binary/04-shellcode-200/solution.md) 					| Binary Exploit   | 200    | `picoCTF{shellc0de_w00h00_26e91a77}`
-45 	| [what base is this?          ](./General/13-what_base_is_this-200/solution.md)    		| General Skills   | 200    | `picoCTF{delusions_about_finding_values_3cc386de}`
-46 	| [you can't see me            ](./General/14-you_cant_see_me-200/solution.md)    			| General Skills   | 200    | `picoCTF{j0hn_c3na_paparapaaaaaaa_paparapaaaaaa_cf5156ef}`
-47	| [Buttons                     ](./Web/08-buttons-250/solution.md)                    		| Web              | 250    | `picoCTF{button_button_whose_got_the_button_91f6f39a}`
-48	| [Ext Super Magic             ](./Forensics/10-ext_super_magic-250/solution.md)    		| Forensics        | 250    | `picoCTF{B3a388F85f93246B9DBA7Cc0fbBA5eE0}`
-49	| [Lying Out                   ](./Forensics/11-lying_out-250/solution.md)   				| Forensics        | 250    | `picoCTF{w4y_0ut_d2b8ece5}`
-50	| [Safe RSA                    ](./Crypto/08-safe_rsa-250/solution.md)     					| Cryptography     | 250    | `picoCTF{e_w4y_t00_sm411_34096259}`
-51	| [The Vault                   ](./Web/09-the_vault-250/solution.md)   						| Web              | 250    | `picoCTF{w3lc0m3_t0_th3_vau1t_e4ca2258}`
-52	| [What's My Name?             ](./Forensics/12-whats_my_name-250/solution.md)     			| Forensics        | 250    | `picoCTF{w4lt3r_wh1t3_2d6d3c6c75aa3be7f42debed8ad16e3b}`
--	| [absolutely relative         ]()  | General Skills   | 250    | 
--	| [assembly-2                  ]()     | Reversing        | 250    | 
--	| [buffer overflow 2           ]()  | Binary Exploit   | 250    |
+44 	| [quackme               	   ](./Reversing/06-quackme-200/solution.md)    				| Reversing        | 200    | ``
+45 	| [shellcode                   ](./Binary/04-shellcode-200/solution.md) 					| Binary Exploit   | 200    | `picoCTF{shellc0de_w00h00_26e91a77}`
+46 	| [what base is this?          ](./General/13-what_base_is_this-200/solution.md)    		| General Skills   | 200    | `picoCTF{delusions_about_finding_values_3cc386de}`
+47 	| [you can't see me            ](./General/14-you_cant_see_me-200/solution.md)    			| General Skills   | 200    | `picoCTF{j0hn_c3na_paparapaaaaaaa_paparapaaaaaa_cf5156ef}`
+48	| [Buttons                     ](./Web/08-buttons-250/solution.md)                    		| Web              | 250    | `picoCTF{button_button_whose_got_the_button_91f6f39a}`
+49	| [Ext Super Magic             ](./Forensics/10-ext_super_magic-250/solution.md)    		| Forensics        | 250    | `picoCTF{B3a388F85f93246B9DBA7Cc0fbBA5eE0}`
+50	| [Lying Out                   ](./Forensics/11-lying_out-250/solution.md)   				| Forensics        | 250    | `picoCTF{w4y_0ut_d2b8ece5}`
+51	| [Safe RSA                    ](./Crypto/08-safe_rsa-250/solution.md)     					| Cryptography     | 250    | `picoCTF{e_w4y_t00_sm411_34096259}`
+52	| [The Vault                   ](./Web/09-the_vault-250/solution.md)   						| Web              | 250    | `picoCTF{w3lc0m3_t0_th3_vau1t_e4ca2258}`
+53	| [What's My Name?             ](./Forensics/12-whats_my_name-250/solution.md)     			| Forensics        | 250    | `picoCTF{w4lt3r_wh1t3_2d6d3c6c75aa3be7f42debed8ad16e3b}`
+54	| [absolutely relative         ](./General/15-absolutely_relative-250/solution.md)  		| General Skills   | 250    | `picoCTF{3v3r1ng_1$_r3l3t1v3_befc0ce1}`
+-	| [assembly-2                  ](./Reversing/07-assembly_1-250/solution.md)     			| Reversing        | 250    | `0x129`
+-	| [buffer overflow 2           ](./Binary/05-buffer_overflow_2-250/solution.md)  			| Binary Exploit   | 250    | `picoCTF{addr3ss3s_ar3_3asy1b78b0d8}`
 -	| [caesar cipher 2             ]()    | Cryptography     | 250    | 
 -	| [got-2-learn-libc            ]() | Binary Exploit   | 250    |
 -	| [rsa-madlibs                 ]()      | Cryptography     | 250    | 
