@@ -76,8 +76,8 @@ ID 	| Title                                                                     
 74	| [roulette                    ](./General/18-roulette-350/solution.md) 					| General Skills   | 350    | `picoCTF{1_h0p3_y0u_f0uNd_b0tH_bUg5_e9328e04}`
 75	| [Malware Shops               ](./Forensics/14-malware_shops-400/solution.md)            	| Forensics        | 400    | `picoCTF{w4y_0ut_08631993}`
 76	| [Radix's Terminal            ](./Reversing/11-radixs_terminal-400/solution.md)         	| Reversing        | 400    | `picoCTF{bAsE_64_eNCoDiNg_iS_EAsY_18759745}`
--	| [assembly-3                  ]()            | Reversing        | 400    | 
--	| [eleCTRic                    ]()         | Cryptography     | 400    |
+77	| [assembly-3                  ](./Reversing/12-assembly_3-400/solution.md)            		| Reversing        | 400    | `0x56a3`
+78	| [eleCTRic                    ](./Crypto/13-eleCTRic-400/solution.md)         				| Cryptography     | 400    | `picoCTF{alw4ys_4lways_Always_check_int3grity_9d5e42a2}`
 -	| [fancy-alive-monitoring      ]()  | Web              | 400    |
 -	| [store                       ]()      | General Skills   | 400    |
 -	| [Secure Logon                ]()        | Web              | 500    |
