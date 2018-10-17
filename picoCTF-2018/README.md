@@ -74,8 +74,8 @@ ID 	| Title                                                                     
 72 	| [quackme up              	   ](./Reversing/10-quackme_up-350/solution.md)    				| Reversing        | 200    | ``
 73	| [rop chain                   ](./Binary/10-rop_chain-350/solution.md)          			| Binary           | 350    | `picoCTF{rOp_aInT_5o_h4Rd_R1gHt_718e6c5c}`
 74	| [roulette                    ](./General/18-roulette-350/solution.md) 					| General Skills   | 350    | `picoCTF{1_h0p3_y0u_f0uNd_b0tH_bUg5_e9328e04}`
--	| [Malware Shops               ]()            | Forensics        | 400    | 
--	| [Radix's Terminal            ]()         | Reversing        | 400    | 
+75	| [Malware Shops               ](./Forensics/14-malware_shops-400/solution.md)            	| Forensics        | 400    | `picoCTF{w4y_0ut_08631993}`
+76	| [Radix's Terminal            ](./Reversing/11-radixs_terminal-400/solution.md)         	| Reversing        | 400    | `picoCTF{bAsE_64_eNCoDiNg_iS_EAsY_18759745}`
 -	| [assembly-3                  ]()            | Reversing        | 400    | 
 -	| [eleCTRic                    ]()         | Cryptography     | 400    |
 -	| [fancy-alive-monitoring      ]()  | Web              | 400    |

@@ -5,7 +5,7 @@ Some odd [traffic](https://2018shell1.picoctf.com/static/0fed6840477a6f0d3e4c963
 
 ## Solution:
 
-First, we download the file:
+First, we download the files:
 ```bash
 wget https://2018shell1.picoctf.com/static/0fed6840477a6f0d3e4c9636d0e136a5/traffic.png
 wget https://2018shell1.picoctf.com/static/0fed6840477a6f0d3e4c9636d0e136a5/info.txt
