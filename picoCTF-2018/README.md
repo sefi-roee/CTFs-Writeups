@@ -69,7 +69,7 @@ ID 	| Title                                                                     
 67  | [Super Safe RSA              ](./Crypto/12-super_safe_rsa-350/solution.md)				| Cryptography	   | 350    | `picoCTF{us3_l@rg3r_pr1m3$_5327}`
 68  | [authenticate                ](./Binary/08-authenticate-350/solution.md) 					| Binary Exploit   | 350    | `picoCTF{y0u_4r3_n0w_aUtH3nt1c4t3d_d29a706d}`
 69	| [be-quick-or-be-dead-3       ](./Reversing/09-be_quick_or_be_dead_3-350/solution.md)     	| Reversing        | 350    | `picoCTF{dynamic_pr0gramming_ftw_b5c45645}`
--	| [core                        ]()             | Forensics        | 350    | 
+70	| [core                        ](./Forensics/13-core-350/solution.md)             			| Forensics        | 350    | `picoCTF{b87e064dba532c386f964435e5e65fc0}`
 -	| [got-shell?                  ]()          | Binary           | 350    |
 -	| [roulette                    ]() | General Skills   | 350    |
 -	| [Malware Shops               ]()            | Forensics        | 400    | 
