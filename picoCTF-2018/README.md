@@ -70,8 +70,10 @@ ID 	| Title                                                                     
 68  | [authenticate                ](./Binary/08-authenticate-350/solution.md) 					| Binary Exploit   | 350    | `picoCTF{y0u_4r3_n0w_aUtH3nt1c4t3d_d29a706d}`
 69	| [be-quick-or-be-dead-3       ](./Reversing/09-be_quick_or_be_dead_3-350/solution.md)     	| Reversing        | 350    | `picoCTF{dynamic_pr0gramming_ftw_b5c45645}`
 70	| [core                        ](./Forensics/13-core-350/solution.md)             			| Forensics        | 350    | `picoCTF{b87e064dba532c386f964435e5e65fc0}`
--	| [got-shell?                  ]()          | Binary           | 350    |
--	| [roulette                    ]() | General Skills   | 350    |
+71	| [got-shell?                  ](./Binary/09-got_shell-350/solution.md)          			| Binary           | 350    | `picoCTF{m4sT3r_0f_tH3_g0t_t4b1e_a8321d81}`
+72 	| [quackme up              	   ](./Reversing/10-quackme_up-350/solution.md)    				| Reversing        | 200    | ``
+73	| [rop chain                   ](./Binary/10-rop_chain-350/solution.md)          			| Binary           | 350    | `picoCTF{rOp_aInT_5o_h4Rd_R1gHt_718e6c5c}`
+74	| [roulette                    ](./General/18-roulette-350/solution.md) 					| General Skills   | 350    | `picoCTF{1_h0p3_y0u_f0uNd_b0tH_bUg5_e9328e04}`
 -	| [Malware Shops               ]()            | Forensics        | 400    | 
 -	| [Radix's Terminal            ]()         | Reversing        | 400    | 
 -	| [assembly-3                  ]()            | Reversing        | 400    | 
