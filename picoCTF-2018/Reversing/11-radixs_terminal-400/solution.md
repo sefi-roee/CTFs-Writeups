@@ -23,7 +23,7 @@ Lets look with IDA:
 
 ![screenshot 1](./screenshot-1.png)
 
-We can try to reverse the function, but there is a shortcut, there is a string there (strings could find it as well):
+We can try to reverse the function, but there is a shortcut, there is a string inside (strings could find it as well):
 
 ![screenshot 2](./screenshot-2.png)
 
