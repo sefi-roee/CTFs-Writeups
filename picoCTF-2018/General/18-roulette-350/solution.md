@@ -295,6 +295,7 @@ int main(int argc, char *argv[]) {
 }
 ```
 
+And this is the "exploit":
 ```python
 #!/usr/bin/env python
 
