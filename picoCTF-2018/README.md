@@ -85,7 +85,8 @@ ID 	| Title                                                                     
 83	| [Magic Padding Oracle        ]()        | Cryptography              | 450    |
 84	| [buffer overflow 3           ](./Binary/11-buffer_overflow_3-450/solution.md)  			| Binary Exploit   | 450    | `picoCTF{eT_tU_bRuT3_F0Rc3_4214775b}`
 85	| [Secure Logon                ](./Web/13-secure_logon-500/solution.md)        				| Web              | 500    | `picoCTF{fl1p_4ll_th3_bit3_fa8dae76}`
--	| [script me                   ]()             | General Skills   | 500    |
+86	| [echo back                   ](./Binary/12-echo_back-500/solution.md)  					| Binary Exploit   | 500    | `picoCTF{foRm4t_stRinGs_aRe_3xtra_DanGer0us_73881db0}`
+87	| [script me                   ](./General/20-script_me-500/solution.md)             		| General Skills   | 500    | `picoCTF{5cr1pt1nG_l1k3_4_pRo_45ca3f85}`
 -	| [LoadSomeBits                ]()             | Forensics        | 550    |
 -	| [assembly-4                  ]()             | Reversing        | 550    | 
 -	| [Help Me Reset               ]()             | Web              | 600    |
