@@ -65,9 +65,9 @@ if ($ip) {
 </html>
 ```
 
-We can see that the IP check in the client side is done using JS ```[match](https://www.w3schools.com/jsref/jsref_match.asp)``` function. This functions returns only the matching part.
+We can see that the IP check in the client side is done using JS [```match```](https://www.w3schools.com/jsref/jsref_match.asp) function. This functions returns only the matching part.
 
-In the other hand, the server side check is done using PHP ```[preg_match](http://php.net/manual/en/function.preg-match.php)``` which just checks if there is a match and if so, the entire input string is being passed to ```[exec](http://php.net/manual/en/function.exec.php)```. If we pass/skip the client side check, we can inject code...
+In the other hand, the server side check is done using PHP [```preg_match```](http://php.net/manual/en/function.preg-match.php) which just checks if there is a match and if so, the entire input string is being passed to [```exec```](http://php.net/manual/en/function.exec.php). If we pass/skip the client side check, we can inject code...
 
 Lets use some [code injection](https://en.wikipedia.org/wiki/Code_injection):
 
