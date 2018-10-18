@@ -80,7 +80,7 @@ ID 	| Title                                                                     
 78	| [eleCTRic                    ](./Crypto/13-eleCTRic-400/solution.md)         				| Cryptography     | 400    | `picoCTF{alw4ys_4lways_Always_check_int3grity_9d5e42a2}`
 79	| [fancy-alive-monitoring      ](./Web/12-fancy_alive_monitoring-400/solution.md)  			| Web              | 400 | `picoCTF{n3v3r_trust_a_b0x_36d4a875}`
 80	| [keygen-me-1                 ](./Reversing/13-keygen_me_1-400/solution.md)      			| Reversing   	   | 400    | `picoCTF{k3yg3n5_4r3_s0_s1mp13_3718231394}`
-81	| [store                       ]()      | General Skills   | 400    |
+81	| [store                       ](./General/19-store-400/solution.md)      					| General Skills   | 400    | `picoCTF{numb3r3_4r3nt_s4f3_cbb7151f}`
 -	| [Secure Logon                ]()        | Web              | 500    |
 -	| [script me                   ]()             | General Skills   | 500    |
 -	| [LoadSomeBits                ]()             | Forensics        | 550    |
