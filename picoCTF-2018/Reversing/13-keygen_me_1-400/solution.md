@@ -21,20 +21,20 @@ Please Provide a VALID 16 byte Product Key.
 We need to find a valid key!
 Lets ovserve with IDA:
 
-![screenshot 1](./screenshot-1/png)
+![screenshot 1](./screenshot-1.png)
 
 We need to pass two checks: ```check_valid_key```, ```validate_key```.
 
 First lets look at ```check_valid_key```:
 
-![screenshot 2](./screenshot-2/png)
+![screenshot 2](./screenshot-2.png)
 
 We must enter a 16 byte key, and all chars must pass ```check_valid_char``` ([0-9A-Z]).
 
 Now ```validate_key```:
 
-![screenshot 3](./screenshot-3/png)
-![screenshot 4](./screenshot-4/png)
+![screenshot 3](./screenshot-3.png)
+![screenshot 4](./screenshot-4.png)
 
 The loop calculates ```sigma i=1 to 15((ord(key[i-1]) + 1) * i)```, where ```ord``` returns the ordinary value of the char (A=10, B=11...).
 
