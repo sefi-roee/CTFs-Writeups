@@ -78,8 +78,9 @@ ID 	| Title                                                                     
 76	| [Radix's Terminal            ](./Reversing/11-radixs_terminal-400/solution.md)         	| Reversing        | 400    | `picoCTF{bAsE_64_eNCoDiNg_iS_EAsY_18759745}`
 77	| [assembly-3                  ](./Reversing/12-assembly_3-400/solution.md)            		| Reversing        | 400    | `0x56a3`
 78	| [eleCTRic                    ](./Crypto/13-eleCTRic-400/solution.md)         				| Cryptography     | 400    | `picoCTF{alw4ys_4lways_Always_check_int3grity_9d5e42a2}`
--	| [fancy-alive-monitoring      ](./Web/12-fancy_alive_monitoring-400/solution.md)  			| Web              | 400    | `picoCTF{n3v3r_trust_a_b0x_36d4a875}`
--	| [store                       ]()      | General Skills   | 400    |
+79	| [fancy-alive-monitoring      ](./Web/12-fancy_alive_monitoring-400/solution.md)  			| Web              | 400 | `picoCTF{n3v3r_trust_a_b0x_36d4a875}`
+80	| [keygen-me-1                 ]()      | Reversing   	   | 400    |
+81	| [store                       ]()      | General Skills   | 400    |
 -	| [Secure Logon                ]()        | Web              | 500    |
 -	| [script me                   ]()             | General Skills   | 500    |
 -	| [LoadSomeBits                ]()             | Forensics        | 550    |
