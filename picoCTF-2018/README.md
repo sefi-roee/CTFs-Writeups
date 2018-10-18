@@ -79,7 +79,7 @@ ID 	| Title                                                                     
 77	| [assembly-3                  ](./Reversing/12-assembly_3-400/solution.md)            		| Reversing        | 400    | `0x56a3`
 78	| [eleCTRic                    ](./Crypto/13-eleCTRic-400/solution.md)         				| Cryptography     | 400    | `picoCTF{alw4ys_4lways_Always_check_int3grity_9d5e42a2}`
 79	| [fancy-alive-monitoring      ](./Web/12-fancy_alive_monitoring-400/solution.md)  			| Web              | 400 | `picoCTF{n3v3r_trust_a_b0x_36d4a875}`
-80	| [keygen-me-1                 ]()      | Reversing   	   | 400    |
+80	| [keygen-me-1                 ](./Reversing/13-keygen_me_1-400/solution.md)      			| Reversing   	   | 400    | `picoCTF{k3yg3n5_4r3_s0_s1mp13_3718231394}`
 81	| [store                       ]()      | General Skills   | 400    |
 -	| [Secure Logon                ]()        | Web              | 500    |
 -	| [script me                   ]()             | General Skills   | 500    |
