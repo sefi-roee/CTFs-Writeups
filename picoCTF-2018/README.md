@@ -82,9 +82,9 @@ ID 	| Title                                                                     
 80	| [keygen-me-1                 ](./Reversing/13-keygen_me_1-400/solution.md)      			| Reversing   	   | 400    | `picoCTF{k3yg3n5_4r3_s0_s1mp13_3718231394}`
 81	| [store                       ](./General/19-store-400/solution.md)      					| General Skills   | 400    | `picoCTF{numb3r3_4r3nt_s4f3_cbb7151f}`
 82  | [Super Safe RSA 2            ](./Crypto/14-super_safe_rsa_2-425/solution.md)				| Cryptography	   | 425    | `picoCTF{w@tch_y0ur_Xp0n3nt$_c@r3fu11y_8106418}`
-83	| [Magic PAdding Oracle        ]()        | Cryptography              | 450    |
+83	| [Magic Padding Oracle        ]()        | Cryptography              | 450    |
 84	| [buffer overflow 3           ](./Binary/11-buffer_overflow_3-450/solution.md)  			| Binary Exploit   | 450    | `picoCTF{eT_tU_bRuT3_F0Rc3_4214775b}`
--	| [Secure Logon                ]()        | Web              | 500    |
+85	| [Secure Logon                ](./Web/13-secure_logon-500/solution.md)        				| Web              | 500    | `picoCTF{fl1p_4ll_th3_bit3_fa8dae76}`
 -	| [script me                   ]()             | General Skills   | 500    |
 -	| [LoadSomeBits                ]()             | Forensics        | 550    |
 -	| [assembly-4                  ]()             | Reversing        | 550    | 
