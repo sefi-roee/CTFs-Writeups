@@ -36,7 +36,7 @@ Now ```validate_key```:
 ![screenshot 3](./screenshot-3.png)
 ![screenshot 4](./screenshot-4.png)
 
-The loop calculates ```sigma i=1 to 15((ord(key[i-1]) + 1) * i)```, where ```ord``` returns the ordinary value of the char (A=10, B=11...).
+The loop calculates ```sigma i=1 to 15((ord(key[i-1]) + 1) * i)```, where ```ord``` returns the ordinary value of the char (A=10, B=11...), lets call this ```sum```.
 
 After that:
 * This ```sum``` is being multiplied by ```38E38E39h``` and shift rotates right ```3``` bits, [which is](http://www.hackersdelight.org/magic.htm) effectively division by ```36```.
