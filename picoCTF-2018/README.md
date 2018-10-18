@@ -87,7 +87,7 @@ ID 	| Title                                                                     
 85	| [Secure Logon                ](./Web/13-secure_logon-500/solution.md)        				| Web              | 500    | `picoCTF{fl1p_4ll_th3_bit3_fa8dae76}`
 86	| [echo back                   ](./Binary/12-echo_back-500/solution.md)  					| Binary Exploit   | 500    | `picoCTF{foRm4t_stRinGs_aRe_3xtra_DanGer0us_73881db0}`
 87	| [script me                   ](./General/20-script_me-500/solution.md)             		| General Skills   | 500    | `picoCTF{5cr1pt1nG_l1k3_4_pRo_45ca3f85}`
--	| [LoadSomeBits                ]()             | Forensics        | 550    |
+88	| [LoadSomeBits                ](./Forensics/15-LoadSomeBits-550/solution.md)             	| Forensics        | 550    | `picoCTF{st0r3d_iN_tH3_l345t_s1gn1f1c4nT_b1t5_449088860}`
 -	| [assembly-4                  ]()             | Reversing        | 550    | 
 -	| [Help Me Reset               ]()             | Web              | 600    |
 -	| [A Simple Question           ]()        | Web              | 650    | 
