@@ -92,7 +92,7 @@ int main(int argc, char **argv){
 Our goal is to pass ```if (!strcmp(password_input, password))``` and to call ```flag()```.
 
 We can solve this in few ways:
-* We can see that "password.txt" is relative, we can create such file in the home directory, and create soft link to the flag file. No need to leak/guess anything.
+* We can see that "password.txt" is relative, we can create such file in the home directory, and create soft link to the flag file. No need to leak/guess anything. **Edit: oh damn, we cant... the connection is via netcat**.
 * The intended way, we can see that ```password``` comes in memory right after ```name```, if the name will be long enough, the ```strcat``` will override the terminating null, and the ```puts``` printing the name will print the password as well. We can alse see that the password won't change between executions.
 
 Now lets write a simple python script:
