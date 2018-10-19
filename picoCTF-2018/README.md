@@ -88,7 +88,8 @@ ID 	| Title                                                                     
 86	| [echo back                   ](./Binary/12-echo_back-500/solution.md)  					| Binary Exploit   | 500    | `picoCTF{foRm4t_stRinGs_aRe_3xtra_DanGer0us_73881db0}`
 87	| [script me                   ](./General/20-script_me-500/solution.md)             		| General Skills   | 500    | `picoCTF{5cr1pt1nG_l1k3_4_pRo_45ca3f85}`
 88	| [LoadSomeBits                ](./Forensics/15-LoadSomeBits-550/solution.md)             	| Forensics        | 550    | `picoCTF{st0r3d_iN_tH3_l345t_s1gn1f1c4nT_b1t5_449088860}`
--	| [assembly-4                  ]()             | Reversing        | 550    | 
+89  | [are you root?               ]()                                                          | Binary Exploit   | 550    | ``
+90	| [assembly-4                  ](./Reversing/14-assembly_4-550/solution.md)             	| Reversing        | 550    | `picoCTF{1_h0p3_y0u_c0mP1l3d_tH15_2418650440}`
 -	| [Help Me Reset               ]()             | Web              | 600    |
 -	| [A Simple Question           ]()        | Web              | 650    | 
 -	| [LambDash 3                  ]()             | Web              | 800    |
