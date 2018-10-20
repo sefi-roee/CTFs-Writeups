@@ -98,8 +98,8 @@ from pwn import *
 
 debug = 0
 
-user = 'roeesefi'
-pw = '123123'
+user = ''
+pw = ''
 
 context.arch = 'amd64'
 
