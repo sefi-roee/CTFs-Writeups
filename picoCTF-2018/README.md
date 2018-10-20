@@ -92,7 +92,9 @@ ID 	| Title                                                                     
 90	| [assembly-4                  ](./Reversing/14-assembly_4-550/solution.md)             	| Reversing        | 550    | `picoCTF{1_h0p3_y0u_c0mP1l3d_tH15_2418650440}`
 91	| [gps                         ](./Binary/14-gps-550/solution.md)							| Binary Exploit   | 550    | `picoCTF{s4v3_y0urs3lf_w1th_a_sl3d_0f_n0ps_gfjdcwma}`
 92  | [Flaskcards Skeleton Key     ](./Web/14-flaskcards_skeleton_key-600/solution.md) 			| Web 			   | 600    | `picoCTF{1_id_to_rule_them_all_8470d1c9}`
--	| [Help Me Reset               ]()             | Web              | 600    |
--	| [A Simple Question           ]()        | Web              | 650    | 
+93	| [Help Me Reset 2             ](./Web/15-help_me_reset_2-600/solution.md)             		| Web              | 600    | `picoCTF{i_thought_i_could_remember_those_e3063a8a}`
+94  | [Super Safe RSA 3            ](./Crypto/16-super_safe_rsa_3-600/solution.md)				| Cryptography	   | 600    | `picoCTF{p_&_q_n0_r_$_t!!_6629910}`
+95	| [special-pw                  ](./Reversing/15-special-pw-600/solution.md)             	| Reversing        | 600    | ``
+96	| [A Simple Question           ](./Web/16-a_simple_question-650/solution.md)        		| Web              | 650    | `picoCTF{qu3stions_ar3_h4rd_41da9e94}`
 -	| [LambDash 3                  ]()             | Web              | 800    |
 -	| [Dog or Frog                 ]() | General Skills   | 900    |
