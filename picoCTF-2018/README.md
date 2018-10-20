@@ -90,6 +90,8 @@ ID 	| Title                                                                     
 88	| [LoadSomeBits                ](./Forensics/15-LoadSomeBits-550/solution.md)             	| Forensics        | 550    | `picoCTF{st0r3d_iN_tH3_l345t_s1gn1f1c4nT_b1t5_449088860}`
 89  | [are you root?               ]()                                                          | Binary Exploit   | 550    | ``
 90	| [assembly-4                  ](./Reversing/14-assembly_4-550/solution.md)             	| Reversing        | 550    | `picoCTF{1_h0p3_y0u_c0mP1l3d_tH15_2418650440}`
+91	| [gps                         ](./Binary/14-gps-550/solution.md)							| Binary Exploit   | 550    | `picoCTF{s4v3_y0urs3lf_w1th_a_sl3d_0f_n0ps_gfjdcwma}`
+92  | [Flaskcards Skeleton Key     ](./Web/14-flaskcards_skeleton_key-600/solution.md) 			| Web 			   | 600    | `picoCTF{1_id_to_rule_them_all_8470d1c9}`
 -	| [Help Me Reset               ]()             | Web              | 600    |
 -	| [A Simple Question           ]()        | Web              | 650    | 
 -	| [LambDash 3                  ]()             | Web              | 800    |
