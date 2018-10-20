@@ -96,5 +96,14 @@ ID 	| Title                                                                     
 94  | [Super Safe RSA 3            ](./Crypto/16-super_safe_rsa_3-600/solution.md)				| Cryptography	   | 600    | `picoCTF{p_&_q_n0_r_$_t!!_6629910}`
 95	| [special-pw                  ](./Reversing/15-special-pw-600/solution.md)             	| Reversing        | 600    | ``
 96	| [A Simple Question           ](./Web/16-a_simple_question-650/solution.md)        		| Web              | 650    | `picoCTF{qu3stions_ar3_h4rd_41da9e94}`
--	| [LambDash 3                  ]()             | Web              | 800    |
--	| [Dog or Frog                 ]() | General Skills   | 900    |
+97  | [can-you-gets-me             ]()															| Binary Exploit   | 650    | ``
+98  | [James Brahm Returns         ]()															| Cryptography     | 700    | ``
+99  | [freecalc                    ]()															| Binary Exploit   | 750    | ``
+99  | [keygen-me-2                 ]()															| Reversing        | 750    | ``
+100	| [LambDash 3                  ]()             												| Web              | 800    | ``
+101 | [circuit 123                 ]()															| Reversing		   | 800	| ``
+102 | [sword                       ]()															| Binary Exploit   | 800    | ``
+103 | [Contacts                    ]()															| Binary Exploit   | 850    | ``
+104 | [Cake	 	                   ]()															| Binary Exploit   | 900    | ``
+105	| [Dog or Frog                 ]() 															| General Skills   | 900    | ``
+106 | [Flaskcards and Freedom      ](./Web/18-flaskcards_and_freedom-900/solution.md) 			| Web 			   | 900    | ``
