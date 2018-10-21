@@ -43,7 +43,7 @@ ID 	| Title                                                                     
 41 	| [hertz 2                     ](./Crypto/07-hertz_2-200/solution.md)           			| Cryptography     | 200    | `picoCTF{substitution_ciphers_are_too_easy_sgsgtnpibo}`
 42 	| [leak-me                     ](./Binary/03-leak_me-200/solution.md)       				| Binary Exploit   | 200    | `picoCTF{aLw4y5_Ch3cK_tHe_bUfF3r_s1z3_d1667872}`
 43 	| [now you don't               ](./Forensics/09-now_you_dont-200/solution.md)    			| Forensics        | 200    | `picoCTF{n0w_y0u_533_m3}`
-44 	| [quackme               	   ](./Reversing/06-quackme-200/solution.md)    				| Reversing        | 200    | ``
+44 	| [quackme               	   ](./Reversing/06-quackme-200/solution.md)    				| Reversing        | 200    | `picoCTF{qu4ckm3_7ed36e4b}`
 45 	| [shellcode                   ](./Binary/04-shellcode-200/solution.md) 					| Binary Exploit   | 200    | `picoCTF{shellc0de_w00h00_26e91a77}`
 46 	| [what base is this?          ](./General/13-what_base_is_this-200/solution.md)    		| General Skills   | 200    | `picoCTF{delusions_about_finding_values_3cc386de}`
 47 	| [you can't see me            ](./General/14-you_cant_see_me-200/solution.md)    			| General Skills   | 200    | `picoCTF{j0hn_c3na_paparapaaaaaaa_paparapaaaaaa_cf5156ef}`
