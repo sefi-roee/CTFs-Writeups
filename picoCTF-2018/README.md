@@ -71,7 +71,7 @@ ID 	| Title                                                                     
 69	| [be-quick-or-be-dead-3       ](./Reversing/09-be_quick_or_be_dead_3-350/solution.md)     	| Reversing        | 350    | `picoCTF{dynamic_pr0gramming_ftw_b5c45645}`
 70	| [core                        ](./Forensics/13-core-350/solution.md)             			| Forensics        | 350    | `picoCTF{b87e064dba532c386f964435e5e65fc0}`
 71	| [got-shell?                  ](./Binary/09-got_shell-350/solution.md)          			| Binary           | 350    | `picoCTF{m4sT3r_0f_tH3_g0t_t4b1e_a8321d81}`
-72 	| [quackme up              	   ](./Reversing/10-quackme_up-350/solution.md)    				| Reversing        | 200    | ``
+72 	| [quackme up              	   ](./Reversing/10-quackme_up-350/solution.md)    				| Reversing        | 200    | `picoCTF{qu4ckm3_2e4b94fc}`
 73	| [rop chain                   ](./Binary/10-rop_chain-350/solution.md)          			| Binary           | 350    | `picoCTF{rOp_aInT_5o_h4Rd_R1gHt_718e6c5c}`
 74	| [roulette                    ](./General/18-roulette-350/solution.md) 					| General Skills   | 350    | `picoCTF{1_h0p3_y0u_f0uNd_b0tH_bUg5_e9328e04}`
 75	| [Malware Shops               ](./Forensics/14-malware_shops-400/solution.md)            	| Forensics        | 400    | `picoCTF{w4y_0ut_08631993}`
