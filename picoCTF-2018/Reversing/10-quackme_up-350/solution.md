@@ -24,7 +24,11 @@ Lets take a look with IDA (although we dont really need to):
 And ```encrypt()```:
 
 ![screenshot 2](./screenshot-2.png)
+
+```rol4()```:
 ![screenshot 3](./screenshot-3.png)
+
+```ror8()```:
 ![screenshot 4](./screenshot-4.png)
 
 There are few ways to solve this challenge:
