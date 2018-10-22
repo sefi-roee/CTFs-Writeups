@@ -96,7 +96,7 @@ ID 	| Title                                                                     
 94  | [Super Safe RSA 3            ](./Crypto/16-super_safe_rsa_3-600/solution.md)				| Cryptography	   | 600    | `picoCTF{p_&_q_n0_r_$_t!!_6629910}`
 95	| [special-pw                  ](./Reversing/15-special-pw-600/solution.md)             	| Reversing        | 600    | ``
 96	| [A Simple Question           ](./Web/16-a_simple_question-650/solution.md)        		| Web              | 650    | `picoCTF{qu3stions_ar3_h4rd_41da9e94}`
-97  | [can-you-gets-me             ]()															| Binary Exploit   | 650    | ``
+97  | [can-you-gets-me             ](./Binary/15-can_you_gets_me-650/solution.md)			    | Binary Exploit   | 650    | `picoCTF{rOp_yOuR_wAY_tO_AnTHinG_700e9c8e}`
 98  | [James Brahm Returns         ]()															| Cryptography     | 700    | ``
 99  | [freecalc                    ]()															| Binary Exploit   | 750    | ``
 99  | [keygen-me-2                 ](./Reversing/16-keygen_me_2-750/solution.md)   				| Reversing        | 750    | `picoCTF{c0n5tr41nt_50lv1nG_15_W4y_f45t3r_3846045707}`

