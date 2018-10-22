@@ -253,7 +253,7 @@ p.sendline('exit')
 print p.recvall()
 ```
 
-### Method 2 - "Build our own ROP chain (Reinventing the wheel)"
+### Method 2 - Building our own ROP chain ("Reinventing the wheel")
 **TODO**
 
 Flag: picoCTF{rOp_yOuR_wAY_tO_AnTHinG_700e9c8e}
