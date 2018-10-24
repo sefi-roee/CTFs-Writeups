@@ -101,7 +101,7 @@ ID 	| Title                                                                     
 99  | [freecalc                    ]()															| Binary Exploit   | 750    | ``
 99  | [keygen-me-2                 ](./Reversing/16-keygen_me_2-750/solution.md)   				| Reversing        | 750    | `picoCTF{c0n5tr41nt_50lv1nG_15_W4y_f45t3r_3846045707}`
 100	| [LambDash 3                  ]()             												| Web              | 800    | ``
-101 | [circuit 123                 ]()															| Reversing		   | 800	| ``
+101 | [circuit 123                 ](./Reversing/17-circuit123-800/solution.md)					| Reversing		   | 800	| `picoCTF{36cc0cc10d273941c34694abdb21580d__aw350m3_ari7hm37ic__}`
 102 | [sword                       ]()															| Binary Exploit   | 800    | ``
 103 | [Contacts                    ]()															| Binary Exploit   | 850    | ``
 104 | [Cake	 	                   ]()															| Binary Exploit   | 900    | ``
