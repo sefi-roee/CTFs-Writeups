@@ -73,39 +73,19 @@ Code (we just let ```verify``` to build the constraint for us and feed it to z3)
 from z3 import *
 import sys
 
-from decrypt import dec
-
-
-def verify(x, chalbox):
-	length, gates, check = chalbox
-
-	b = [(x >> i) & 1 for i in range(length)]
-	for name, args in gates:
-		if name == 'true':
-			b.append(1)
-		else:
-			u1 = b[args[0][0]] ^ args[0][1]
-			u2 = b[args[1][0]] ^ args[1][1]
-			if name == 'or':
-				b.append(u1 | u2)
-			elif name == 'xor':
-				b.append(u1 ^ u2)
-
-	s.add(b[check[0]] ^ check[1] == 1)
-
-	return b[check[0]] ^ check[1]
+from decrypt import verify, dec
 
 if len(sys.argv) < 2:
-	print 'Usage: ' + sys.argv[0] + ' <map.txt>'
+    print 'Usage: ' + sys.argv[0] + ' <map.txt>'
 
-	sys.exit(1)
+    sys.exit(1)
 
 with open(sys.argv[1], 'r') as f:
-	cipher, chalbox = eval(f.read())
+    cipher, chalbox = eval(f.read())
 
 s = Solver()
-key = BitVec('key', 128)
-verify(key, chalbox)
+key = BitVec('key', chalbox[0])
+s.add(verify(key, chalbox) == 1)
 
 s.check()
 key = str(s.model()[key])
