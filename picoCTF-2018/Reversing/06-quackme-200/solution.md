@@ -42,7 +42,7 @@ Lets call the string at 0x8048858h (0x29, 0x6, 0x16, 0x4F, 0x2B, 0x35, 0x30, 0x1
 
 Iterating over the input (with var_18 as the index):
 * Set var_1D := xor_string[var_18] ^ var_14[var_18].
-* Compare var_1D to greetingMessage[var_18], if equal, increase car_1C (greetingMessage = You have now entered the Duck Web, and you're in for a honkin' goot time. ...)
+* Compare var_1D to greetingMessage[var_18], if equal, increase var_1C (greetingMessage = You have now entered the Duck Web, and you're in for a honkin' goot time. ...)
 * if var_1C equals 0x19, we won.
 
 If out input equals to the xor of the greeingMessage with the xor_string, we win.
