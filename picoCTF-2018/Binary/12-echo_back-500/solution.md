@@ -18,8 +18,8 @@ chmod +x ./echoback
 
 Lets take a look with IDA:
 
-![screenshot 1]('./screenshot-1.png')
-![screenshot 2]('./screenshot-2.png')
+![screenshot 1](./screenshot-1.png)
+![screenshot 2](./screenshot-2.png)
 
 Strategy:
 * Redirect ```puts()``` back to ```vuln()```.
