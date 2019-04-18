@@ -16,7 +16,7 @@ wget https://2018shell1.picoctf.com/static/29633d1bd5ba677d6af455cf61b18f57/shad
 
 Then, we unshadow (combine to a format john can use) the files:
 ```bash
-wget https://2018shell1.picoctf.com/static/29633d1bd5ba677d6af455cf61b18f57/passwd
+unshadow /etc/passwd /etc/shadow > unshadowed
 ```
 
 Finally, we use john to crack passwords:
