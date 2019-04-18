@@ -17,7 +17,7 @@ ID 	| Title                                                                     
 15 	| [pipe                        ](./General/08-pipe-110/solution.md)            				| General Skills   | 110    | `picoCTF{almost_like_mario_b797f2b3}`
 16 	| [Inspect Me                  ](./Web/01-inspect_me-125/solution.md)             			| Web              | 125    | `picoCTF{ur_4_real_1nspect0r_g4dget_9dd3b33c}`
 17 	| [grep 2                      ](./General/09-grep_2-125/solution.md)       				| General Skills   | 125    | `picoCTF{grep_r_and_you_will_find_556620f7}`
-18 	| [Aca-Shell-A                 ](./Web/01-inspect_me-125/solution.md)       				| General Skills   | 150    | `picoCTF{CrUsHeD_It_9edaa84a}`
+18 	| [Aca-Shell-A                 ](./General/10-aca_shell_a-150/solution.md)       				| General Skills   | 150    | `picoCTF{CrUsHeD_It_9edaa84a}`
 19 	| [Client Side is still Bad    ](./Web/02-client_side_is_still_bad-150/solution.md) 		| Web              | 150    | `picoCTF{client_is_bad_3bd366}`
 20 	| [Desrouleaux                 ](./Forensics/03-desrouleaux-150/solution.md)        		| Forensics        | 150    | `picoCTF{J4y_s0n_d3rUUUULo_a062e5f8}`
 21 	| [Logon                       ](./Web/03-logon-150/solution.md)                   			| Web              | 150    | `picoCTF{l0g1ns_ar3nt_r34l_82e795f4}`
