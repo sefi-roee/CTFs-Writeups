@@ -8,7 +8,7 @@ URL:      http://natas1.natas.labs.overthewire.org
 We enter the site, and see the following page:
 <figure>
     <img src="https://raw.githubusercontent.com/sefi-roee/CTFs-Writeups/master/OverTheWire/Natas/images/natas1.png" />
-    <div align="center">Natas 10</div>
+    <div align="center">Natas 1</div>
 </figure>
 
 When trying to right click, a messages pops up:
