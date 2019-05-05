@@ -19,3 +19,4 @@ URL:      http://natas0.natas.labs.overthewire.org
 | [Level 0](http://overthewire.org/wargames/natas/natas0.html)   |                                  | [Link](./level_0/README.md)   |
 | [Level 1](http://overthewire.org/wargames/natas/natas1.html)   | gtVrDuiDfck831PqWsLEZy5gyDz1clto | [Link](./level_1/README.md)   |
 | [Level 2](http://overthewire.org/wargames/natas/natas2.html)   | ZluruAthQk7Q2MqmDeTiUij2ZvWy2mBi | [Link](./level_2/README.md)   |
+| [Level 3](http://overthewire.org/wargames/natas/natas3.html)   | sJIJNW6ucpu6HPZ1ZAchaDtwd7oGrD14 | [Link](./level_3/README.md)   |
