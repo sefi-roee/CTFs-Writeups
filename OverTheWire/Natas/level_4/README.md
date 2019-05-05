@@ -16,6 +16,7 @@ Access disallowed. You are visiting from "http://localhost/" while authorized us
 ```
 
 We need to set the HTTP referrer header to: “http://natas5.natas.labs.overthewire.org/”.
+
 We can user burp or fiddler, but the easiest way is to use cURL.
 
 ```bash
