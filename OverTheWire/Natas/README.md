@@ -14,6 +14,7 @@ Password: natas0
 URL:      http://natas0.natas.labs.overthewire.org
 ```
 
-| Level                                                          | Solution                                                  | Password                         |
-| -------------------------------------------------------------- | --------------------------------------------------------- | -------------------------------- |
-| [Level 0](http://overthewire.org/wargames/natas/natas0.html)   | [Link](./level_0/README.md)                               | gtVrDuiDfck831PqWsLEZy5gyDz1clto |
+| Level                                                          | Password                         | Solution                      |
+| -------------------------------------------------------------- | -------------------------------- | ------------------------------|
+| [Level 0](http://overthewire.org/wargames/natas/natas0.html)   |                                  | [Link](./level_0/README.md)   |
+| [Level 1](http://overthewire.org/wargames/natas/natas1.html)   | gtVrDuiDfck831PqWsLEZy5gyDz1clto | [Link](./level_1/README.md)   |
