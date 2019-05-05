@@ -27,8 +27,8 @@ We can see the “loggedin” cookie with value: 0.
 
 Lets change it to something else:
 <figure>
-    <img src="https://raw.githubusercontent.com/sefi-roee/CTFs-Writeups/master/OverTheWire/Natas/images/natas5-cookies-update.png" />
-    <div align="center">Natas 5 - Cookies update</div>
+    <img src="https://raw.githubusercontent.com/sefi-roee/CTFs-Writeups/master/OverTheWire/Natas/images/natas5-cookie-update.png" />
+    <div align="center">Natas 5 - Cookie update</div>
 </figure>
 
 Lets change it to something else:
