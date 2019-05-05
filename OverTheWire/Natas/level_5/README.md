@@ -31,7 +31,7 @@ Lets change it to something else:
     <div align="center">Natas 5 - Cookie update</div>
 </figure>
 
-Lets change it to something else:
+And after we refresh the page:
 <figure>
     <img src="https://raw.githubusercontent.com/sefi-roee/CTFs-Writeups/master/OverTheWire/Natas/images/natas5-loggedin.png" />
     <div align="center">Natas 5 - Logged in</div>
