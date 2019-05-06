@@ -14,6 +14,7 @@ We enter the site, and see the following page:
 We can see two links:
 * [Home](http://natas7.natas.labs.overthewire.org/index.php?page=home)
 * [About](http://natas7.natas.labs.overthewire.org/index.php?page=about)
+
 Lets follow them:
 
 <figure>
