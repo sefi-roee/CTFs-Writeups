@@ -36,7 +36,7 @@ if($key != "") {
 We need to avoid these 3 characters:
 * ;
 * |
-* &amp
+* &
 
 If we send the folloing: "1 /etc/natas_webpass/natas11".
 
