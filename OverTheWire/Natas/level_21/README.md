@@ -18,7 +18,7 @@ And the [source code](http://natas21.natas.labs.overthewire.org/index-source.htm
 
 Again, we need admin=1 in the session data
 
-```basg
+```bash
 Note: this website is colocated with http://natas21-experimenter.natas.labs.overthewire.org
 ```
 
