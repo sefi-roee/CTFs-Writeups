@@ -36,7 +36,8 @@ In first look, we need to guess the secret password.
 
 Searching for vulnerabilities in *strcmp* we found "[Array Injection](https://marcosvalle.github.io/ctf/php/2016/05/12/php-comparison-vlun.html)"
 
-We just need to send array as the GET parameter:
+We just need to send array as the GET parameter.
+
 [Sending](http://natas24.natas.labs.overthewire.org/?passwd[]=1&amp;passwd[]=2):
 ```bash
 http://natas24.natas.labs.overthewire.org/?passwd[]=1&passwd[]=2
