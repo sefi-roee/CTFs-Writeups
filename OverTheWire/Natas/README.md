@@ -30,7 +30,8 @@ URL:      http://natas0.natas.labs.overthewire.org
 | [Level 11](http://overthewire.org/wargames/natas/natas11.html) | U82q5TCMMQ9xuFoI3dYX61s7OZD9JKoK | [Link](./level_11/README.md)  |
 | [Level 12](http://overthewire.org/wargames/natas/natas12.html) | EDXp0pS26wLKHZy1rDBPUZk0RKfLGIR3 | [Link](./level_12/README.md)  |
 | [Level 13](http://overthewire.org/wargames/natas/natas13.html) | jmLTY0qiPZBbaKc9341cqPQZBJv7MQbY | [Link](./level_13/README.md)  |
-| [Level 14](http://overthewire.org/wargames/natas/natas14.html) | AwWj0w5cvxrZiONgZ9J5stNVkmxdk39J | [Link](./level_14/README.md)  |
-| [Level 15](http://overthewire.org/wargames/natas/natas15.html) | WaIHEacj63wnNIBROHeqi3p9t0m5nhmh | [Link](./level_15/README.md)  |
-| [Level 16](http://overthewire.org/wargames/natas/natas16.html) | 8Ps3H0GWbn5rd9S7GmAdgQNdkhPkq9cw | [Link](./level_16/README.md)  |
-| [Level 17](http://overthewire.org/wargames/natas/natas17.html) | xvKIqDjy4OPv7wCRgDlmj0pFsCsDjhdP | [Link](./level_17/README.md)  |
+| [Level 14](http://overthewire.org/wargames/natas/natas14.html) | Lg96M10TdfaPyVBkJdjymbllQ5L6qdl1 | [Link](./level_14/README.md)  |
+| [Level 15](http://overthewire.org/wargames/natas/natas15.html) | AwWj0w5cvxrZiONgZ9J5stNVkmxdk39J | [Link](./level_15/README.md)  |
+| [Level 16](http://overthewire.org/wargames/natas/natas16.html) | WaIHEacj63wnNIBROHeqi3p9t0m5nhmh | [Link](./level_16/README.md)  |
+| [Level 17](http://overthewire.org/wargames/natas/natas17.html) | 8Ps3H0GWbn5rd9S7GmAdgQNdkhPkq9cw | [Link](./level_17/README.md)  |
+| [Level 18](http://overthewire.org/wargames/natas/natas18.html) | xvKIqDjy4OPv7wCRgDlmj0pFsCsDjhdP | [Link](./level_18/README.md)  |
