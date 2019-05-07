@@ -32,7 +32,7 @@ The script is:
 ?>
 ```
 
-We need to send a GET parameter which includes the substring "iloveyou" and which is greater the 10 (implicit casting to int take the int prefix from the string). Lets [>try](http://natas23.natas.labs.overthewire.org/?passwd=11iloveyou) "11iloveyou":
+We need to send a GET parameter which includes the substring "iloveyou" and which is greater the 10 (implicit casting to int take the int prefix from the string). Lets [try](http://natas23.natas.labs.overthewire.org/?passwd=11iloveyou) "11iloveyou":
 
 <figure>
     <img src="https://raw.githubusercontent.com/sefi-roee/CTFs-Writeups/master/OverTheWire/Natas/images/natas23-pwned.png" />
