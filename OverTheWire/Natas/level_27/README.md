@@ -119,14 +119,14 @@ The functionality is going like this:
 When entering username/password (via POST parameters), we are:
 * Checking if the user is *validUser* (SELECT * from users where username='$user' and return *True* if more then 0 rows returned).
 * If true:
-* * Checking user credentials with *checkCredentials* (SELECT username from users where username='$user' and password='$password' and return *True* if more then 0 rows returned).
-* * If true:
-* * * Dumping user data with *dumpData* (SELECT * from users where username='$user' and if more then 0 rows returned, fetching the first result *[mysql_fetch_assoc](http://php.net/manual/en/function.mysql-fetch-assoc.php)* and returning it.
-* * If false:
-* * * Echoing "Wrong password" message.
+  * Checking user credentials with *checkCredentials* (SELECT username from users where username='$user' and password='$password' and return *True* if more then 0 rows returned).
+  * If true:
+    * Dumping user data with *dumpData* (SELECT * from users where username='$user' and if more then 0 rows returned, fetching the first result *[mysql_fetch_assoc](http://php.net/manual/en/function.mysql-fetch-assoc.php)* and returning it.
+  * If false:
+    * Echoing "Wrong password" message.
 * If false:
-* * Creating user with *createUser* (INSERT INTO users (username,password) values ('$user','$password')).
-* * Echoing "User created" message.
+  * Creating user with *createUser* (INSERT INTO users (username,password) values ('$user','$password')).
+  * Echoing "User created" message.
 
 In all this functionality, username/password are being escaped with *mysql_real_escape_string* (so we can't inject SQL code).
 
