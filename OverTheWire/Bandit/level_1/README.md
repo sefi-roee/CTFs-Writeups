@@ -1,4 +1,4 @@
-# Bandit Level 0
+# Bandit Level 1
 
 ```bash
 Username: bandit1
