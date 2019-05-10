@@ -27,4 +27,4 @@ Port:     2220
 | Level                                                          | Password                         | Solution                      |
 | -------------------------------------------------------------- | -------------------------------- | ------------------------------|
 | [Level 0](http://overthewire.org/wargames/bandit/bandit0.html) |                                  | [Link](./level_0/README.md)   |
-| [Level 0](http://overthewire.org/wargames/bandit/bandit1.html) | boJ9jbbUNNfktd78OOpsqOltutMc3MY1 | [Link](./level_1/README.md)   |
+| [Level 1](http://overthewire.org/wargames/bandit/bandit1.html) | boJ9jbbUNNfktd78OOpsqOltutMc3MY1 | [Link](./level_1/README.md)   |
