@@ -36,4 +36,5 @@ Port:     2220
 | [Level 7](http://overthewire.org/wargames/bandit/bandit8.html)  | HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs | [Link](./level_7/README.md)   |
 | [Level 8](http://overthewire.org/wargames/bandit/bandit9.html)  | cvX2JJa4CFALtqS87jk27qwqGhBM9plV | [Link](./level_8/README.md)   |
 | [Level 9](http://overthewire.org/wargames/bandit/bandit10.html) | UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR | [Link](./level_9/README.md)   |
-| [Level 10](http://overthewire.org/wargames/bandit/bandit11.html)  truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk | [Link](./level_10/README.md)  |
+| [Level 10](http://overthewire.org/wargames/bandit/bandit11.html)| truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk | [Link](./level_10/README.md)  |
+| [Level 11](http://overthewire.org/wargames/bandit/bandit12.html)| IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR | [Link](./level_11/README.md)  |
