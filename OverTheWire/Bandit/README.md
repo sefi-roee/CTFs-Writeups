@@ -40,3 +40,4 @@ Port:     2220
 | [Level 11](http://overthewire.org/wargames/bandit/bandit12.html)| IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR | [Link](./level_11/README.md)  |
 | [Level 12](http://overthewire.org/wargames/bandit/bandit13.html)| 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu | [Link](./level_12/README.md)  |
 | [Level 13](http://overthewire.org/wargames/bandit/bandit14.html)| 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL | [Link](./level_13/README.md)  |
+| [Level 14](http://overthewire.org/wargames/bandit/bandit15.html)| 4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e | [Link](./level_14/README.md)  |
