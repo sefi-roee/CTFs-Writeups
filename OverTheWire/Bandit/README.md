@@ -26,9 +26,10 @@ Port:     2220
 
 | Level                                                          | Password                         | Solution                      |
 | -------------------------------------------------------------- | -------------------------------- | ------------------------------|
-| [Level 0](http://overthewire.org/wargames/bandit/bandit0.html) |                                  | [Link](./level_0/README.md)   |
-| [Level 1](http://overthewire.org/wargames/bandit/bandit1.html) | boJ9jbbUNNfktd78OOpsqOltutMc3MY1 | [Link](./level_1/README.md)   |
-| [Level 2](http://overthewire.org/wargames/bandit/bandit2.html) | CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9 | [Link](./level_2/README.md)   |
-| [Level 3](http://overthewire.org/wargames/bandit/bandit3.html) | UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK | [Link](./level_3/README.md)   |
-| [Level 4](http://overthewire.org/wargames/bandit/bandit4.html) | pIwrPrtPN36QITSp3EQaw936yaFoFgAB | [Link](./level_4/README.md)   |
-| [Level 5](http://overthewire.org/wargames/bandit/bandit5.html) | koReBOKuIDDepwhWk7jZC0RTdopnAYKh | [Link](./level_5/README.md)   |
+| [Level 0](http://overthewire.org/wargames/bandit/bandit1.html) |                                  | [Link](./level_0/README.md)   |
+| [Level 1](http://overthewire.org/wargames/bandit/bandit2.html) | boJ9jbbUNNfktd78OOpsqOltutMc3MY1 | [Link](./level_1/README.md)   |
+| [Level 2](http://overthewire.org/wargames/bandit/bandit3.html) | CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9 | [Link](./level_2/README.md)   |
+| [Level 3](http://overthewire.org/wargames/bandit/bandit4.html) | UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK | [Link](./level_3/README.md)   |
+| [Level 4](http://overthewire.org/wargames/bandit/bandit5.html) | pIwrPrtPN36QITSp3EQaw936yaFoFgAB | [Link](./level_4/README.md)   |
+| [Level 5](http://overthewire.org/wargames/bandit/bandit6.html) | koReBOKuIDDepwhWk7jZC0RTdopnAYKh | [Link](./level_5/README.md)   |
+| [Level 6](http://overthewire.org/wargames/bandit/bandit7.html) | DXjZPULLxYr17uwoI01bNLQbtFemEgo7 | [Link](./level_6/README.md)   |
