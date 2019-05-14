@@ -44,4 +44,5 @@ Port:     2220
 | [Level 15](http://overthewire.org/wargames/bandit/bandit16.html)| BfMYroe26WYalil77FoDi9qh59eK5xNr | [Link](./level_15/README.md)  |
 | [Level 16](http://overthewire.org/wargames/bandit/bandit17.html)| cluFn7wTiGryunymYOu4RcffSxQluehd | [Link](./level_16/README.md)  |
 | [Level 17](http://overthewire.org/wargames/bandit/bandit18.html)| *We have an RSA private key*     | [Link](./level_17/README.md)  |
+| [Level 18](http://overthewire.org/wargames/bandit/bandit19.html)| kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd | [Link](./level_18/README.md)  |
 
