@@ -6,7 +6,6 @@ How do you inspect web code on a browser?
 
 There's 3 parts
 
-
 ## Solution:
 
 Open the site and try to search for information.

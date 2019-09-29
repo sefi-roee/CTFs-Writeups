@@ -1,21 +1,22 @@
 # Problem
-We put together a bunch of resources to help you out on our website! If you go over there, you might even find a flag! [https://picoctf.com/resources](https://picoctf.com/resources)
+Can you find the flag in [file](https://2019shell1.picoctf.com/static/20314c5941bbf36a5eaa2e0926fb1cb5/file)? This would be really tedious to look through manually, something tells me there is a better way. You can also find the file in /problems/first-grep_3_2e09f586a51352180a37e25913f5e5d9 on the shell server.
 
 ## Hints:
+
+grep [tutorial](https://ryanstutorials.net/linuxtutorial/grep.php)
 
 ## Solution:
 
 Let's download the file:
 ```bash
-wget https://picoctf.com/resources
+wget https://2019shell1.picoctf.com/static/20314c5941bbf36a5eaa2e0926fb1cb5/file
 ```
 
 Using a simple ```grep```:
 ```bash
-cat resources | grep picoCTF
+cat file | grep picoCTF
 
-  <li><code class="highlighter-rouge">picoCTF{r3source_pag3_f1ag}</code> (2019 competition)</li>
-  <li><code class="highlighter-rouge">picoCTF{xiexie_ni_lai_zheli}</code> (2018 competition)</li>
+picoCTF{grep_is_good_to_find_things_eda8911c}
 ```
 
-Flag: picoCTF{r3source_pag3_f1ag}
+Flag: picoCTF{grep_is_good_to_find_things_eda8911c}

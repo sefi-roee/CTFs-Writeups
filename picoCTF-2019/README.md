@@ -11,21 +11,21 @@ ID 	| Title                                                                     
 9 	| [practice-run-1              ](./Binary/02-practice_run_1-50/solution.md)    				| Binary Exploit   | 50     | `picoCTF{g3t_r3adY_2_r3v3r53}`
 10 	| [unzip                       ](./Forensics/02-unzip-50/solution.md)         				| Forensics        | 50     | `picoCTF{unz1pp1ng_1s_3a5y}`
 11 	| [vault-door-training         ](./Reversing/01-vault-door-training-50/solution.md)         | Reversing        | 50     | `picoCTF{w4rm1ng_Up_w1tH_jAv4_87f51143e4b}`
-<!-- 12 	| [net cat                     ](./General/06-netcat-75/solution.md)          				| General Skills   | 75     | `picoCTF{NEtcat_iS_a_NEcESSiTy_0b4c4174}`
-13 	| [HEEEEEEERE'S Johnny!        ](./Crypto/03-heeeeeeers_johnny-100/solution.md)				| Cryptography     | 100    | `picoCTF{J0hn_1$_R1pp3d_4e5aa29e}`
-14 	| [strings                   	 ](./General/07-strings-100/solution.md)         			| General Skills   | 100    | `picoCTF{sTrIngS_sAVeS_Time_3f712a28}`
-15 	| [pipe                        ](./General/08-pipe-110/solution.md)            				| General Skills   | 110    | `picoCTF{almost_like_mario_b797f2b3}`
-16 	| [Inspect Me                  ](./Web/01-inspect_me-125/solution.md)             			| Web              | 125    | `picoCTF{ur_4_real_1nspect0r_g4dget_9dd3b33c}`
-17 	| [grep 2                      ](./General/09-grep_2-125/solution.md)       				| General Skills   | 125    | `picoCTF{grep_r_and_you_will_find_556620f7}`
-18 	| [Aca-Shell-A                 ](./General/10-aca_shell_a-150/solution.md)       				| General Skills   | 150    | `picoCTF{CrUsHeD_It_9edaa84a}`
-19 	| [Client Side is still Bad    ](./Web/02-client_side_is_still_bad-150/solution.md) 		| Web              | 150    | `picoCTF{client_is_bad_3bd366}`
-20 	| [Desrouleaux                 ](./Forensics/03-desrouleaux-150/solution.md)        		| Forensics        | 150    | `picoCTF{J4y_s0n_d3rUUUULo_a062e5f8}`
-21 	| [Logon                       ](./Web/03-logon-150/solution.md)                   			| Web              | 150    | `picoCTF{l0g1ns_ar3nt_r34l_82e795f4}`
-22 	| [Reading between the eyes    ](./Forensics/04-reading_between_the_eyes-150/solution.md)	| Forensics        | 150    | `picoCTF{r34d1ng_b37w33n_7h3_by73s}`
-23	| [Recovering from the snap    ](./Forensics/05-recovering_from_the_snap-150/solution.md)  	| Forensics        | 150    | `picoCTF{th3_5n4p_happ3n3d}`
-24 	| [admin panel                 ](./Forensics/06-admin_panel-150/solution.md)           		| Forensics        | 150    | `picoCTF{n0ts3cur3_b186631d}`
-25	| [assembly-0                  ](./Reversing/03-assembly_0-150/solution.md)        			| Reversing        | 150    | `\xb0`
-26	| [buffer overflow 0           ](./Binary/01-buffer_overflow_0-150/solution.md)   			| Binary Exploit   | 150    | `picoCTF{ov3rfl0ws_ar3nt_that_bad_b49d36d2}`
+12 	| [13                          ](./Crypto/02-13-100/solution.md)             				| Cryptography     | 100    | `picoCTF{not_too_bad_of_a_problem}`
+13 	| [Bases                       ](./General/05-bases-100/solution.md)        				| General Skills   | 100    | `picoCTF{l3arn_th3_r0p35}`
+14 	| [Easy1                       ](./Crypto/03-easy1-100/solution.md)         			    | Cryptography     | 100    | `picoCTF{CRYPTOISFUN}`
+15 	| [First Grep                  ](./General/06-first_grep-100/solution.md)      				| General Skills   | 100    | `picoCTF{grep_is_good_to_find_things_eda8911c}`
+16 	| [Overflow 0                  ](./Binary/03-overflow_0-100/solution.md)           			| Binary Exploit   | 100    | `picoCTF{3asY_P3a5y1fcf81f9}`
+17 	| [Resources                   ](./General/07-resources-100/solution.md)       				| General Skills   | 100    | `picoCTF{r3source_pag3_f1ag}`
+18 	| [caesar                      ](./Crypto/04-caesar-100/solution.md)               			| Cryptography     | 100    | `picoCTF{crossingtherubicongysimakx}`
+19 	| [dont-use-client-side        ](./Web/02-dont_user_client_side-100/solution.md)    		| Web              | 100    | `picoCTF{no_clients_plz_4a60f3}`
+20 	| [logon                       ](./Web/03-logon-100/solution.md)        		            | Web              | 100    | `picoCTF{th3_c0nsp1r4cy_l1v3s_6f2c20e9}`
+21 	| [strings it                  ](./General/08-strings_it-100/solution.md)                   | General Skills   | 100    | `picoCTF{5tRIng5_1T_f1527258}`
+22 	| [valut-door-1                ](./Forensics/04-reading_between_the_eyes-150/solution.md)	| Reversing        | 100    | `Reversing/02-vault-door-1-100/solution.md`
+23	| [what's a net cat            ](./General/09-whats_a_net_cat-100/solution.md)          	| General Skills   | 100    | `picoCTF{nEtCat_Mast3ry_b1d25ece}`
+24 	| [where are the robots        ](./Web/04-where_are_the_robots-100/solution.md)        		| Web              | 100    | `picoCTF{ca1cu1at1ng_Mach1n3s_a44f7}`
+<!-- 25	| [assembly-0                  ](./Reversing/03-assembly_0-150/solution.md)        			|         | 150    | `\xb0` -->
+<!-- 26	| [buffer overflow 0           ](./Binary/01-buffer_overflow_0-150/solution.md)   			| Binary Exploit   | 150    | `picoCTF{ov3rfl0ws_ar3nt_that_bad_b49d36d2}`
 27 	| [caesar cipher 1             ](./Crypto/04-caesar_cipher_1-150/solution.md)    			| Cryptography     | 150    | `picoCTF{justagoodoldcaesarciphertobrvmri}`
 28 	| [environ                     ](./General/11-environ-150/solution.md)        				| General Skills   | 150    | `picoCTF{eNv1r0nM3nT_v4r14Bl3_fL4g_3758492}`
 29 	| [hertz                       ](./Crypto/05-hertz-150/solution.md)           				| Cryptography     | 150    | `substitution_ciphers_are_solvable_mwettfesvn`
@@ -106,5 +106,4 @@ ID 	| Title                                                                     
 103 | [Contacts                    ]()															| Binary Exploit   | 850    | ``
 104 | [Cake	 	                   ]()															| Binary Exploit   | 900    | ``
 105	| [Dog or Frog                 ]() 															| General Skills   | 900    | ``
-106 | [Flaskcards and Freedom      ](./Web/18-flaskcards_and_freedom-900/solution.md) 			| Web 			   | 900    | ``
- -->
+106 | [Flaskcards and Freedom      ](./Web/18-flaskcards_and_freedom-900/solution.md) 			| Web 			   | 900    | `` -->
