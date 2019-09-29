@@ -1,0 +1,284 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="picoCTF is a free computer security game for middle and high school students.">
+    <meta name="designer" content="Jason Petz - https://petzdes.com">
+    <meta property="og:title" content="picoCTF - Educational Resources">
+    <meta property="og:description" content="picoCTF is a free computer security game for middle and high school students.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="/resources.html">
+    <meta property="og:image" content="/img/logos/picoctf-logo-og.png">
+    <meta property="og:image:height" content="600px">
+    <meta property="og:image:width" content="600px">
+    <title>picoCTF - Educational Resources</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="/css/main.css?1569720849">
+    <link rel="stylesheet" href="/css/font-awesome.min.css?1569720849">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+    <script src="/js/jquery.min.js?1569720849"></script>
+    <script src="/js/bootstrap.bundle.min.js?1569720849"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-93258343-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-93258343-2');
+    </script>
+</head>
+
+
+<body>
+<div id="body-container" class="pb-footer">
+    
+<div class="w-100" id="top-container">
+    <div class="container" id="top-inner-container">
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <a class="navbar-brand ml-2 ml-lg-4" href="/"><img alt="picoCTF logo" src="/img/logos/pico-mark.svg"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto mr-md-1">
+                    
+                        
+                        
+                        
+                            
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="ABOUTDropLink" role="button"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">ABOUT</a>
+                        <div class="dropdown-menu text-md-left text-center" aria-labelledby="ABOUTDropLink">
+                            
+                            <a class="dropdown-item"
+                               href="/about"
+                               >
+                                About picoCTF
+                                
+                            </a>
+                            
+                            <a class="dropdown-item"
+                               href="/sponsors"
+                               >
+                                Sponsors
+                                
+                            </a>
+                            
+                            <a class="dropdown-item"
+                               href="/rules"
+                               >
+                                Rules
+                                
+                            </a>
+                            
+                        </div>
+                    </li>
+                        
+                    
+                        
+                        
+                        
+                            
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" id="RESOURCESDropLink" role="button"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">RESOURCES</a>
+                        <div class="dropdown-menu text-md-left text-center" aria-labelledby="RESOURCESDropLink">
+                            
+                            <a class="dropdown-item"
+                               href="/students"
+                               >
+                                Students
+                                
+                            </a>
+                            
+                            <a class="dropdown-item"
+                               href="/teachers"
+                               >
+                                Teachers
+                                
+                            </a>
+                            
+                            <a class="dropdown-item active"
+                               href="/resources"
+                               >
+                                Education
+                                
+                            </a>
+                            
+                            <a class="dropdown-item"
+                               href="/research"
+                               >
+                                Research
+                                
+                            </a>
+                            
+                            <a class="dropdown-item"
+                               href="/external"
+                               >
+                                External Resources
+                                
+                            </a>
+                            
+                        </div>
+                    </li>
+                        
+                    
+                        
+                        
+                        
+                    <li class="nav-item">
+                        <a class="nav-link" href="/community"
+                             >
+                            COMMUNITY </a>
+                    </li>
+                        
+                    
+                        
+                        
+                        
+                            
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="REGISTER / SIGNINDropLink" role="button"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">REGISTER / SIGNIN</a>
+                        <div class="dropdown-menu text-md-left text-center" aria-labelledby="REGISTER / SIGNINDropLink">
+                            
+                            <a class="dropdown-item"
+                               href="https://2019game.picoctf.com"
+                                target="_blank">
+                                picoCTF 2019
+                                
+                            </a>
+                            
+                            <a class="dropdown-item"
+                               href="https://2018game.picoctf.com"
+                                target="_blank">
+                                picoCTF 2018
+                                
+                            </a>
+                            
+                        </div>
+                    </li>
+                        
+                    
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div>
+
+<div class="w-100" id="top-graphicbar">
+
+</div>
+
+
+
+    
+    <div id="main-content" class="container pt-45">
+        <div class="row">
+            <div class="col-body">
+                <div class="col-lg-3 col-md-4 d-none d-md-block" id="toc-container">
+                    <ul class="toc-list">
+  <li class="toc-list-item"><a href="#learning-guides">Learning Guides</a></li>
+  <li class="toc-list-item"><a href="#video-tutorials">Video Tutorials</a></li>
+  <li class="toc-list-item"><a href="#piazza">Piazza</a></li>
+</ul>
+
+                </div>
+                <div class="col-lg-9 col-md-8" id="toc-content-source">
+                    <h1 class="mb-4"> Educational Resources </h1>
+                    <h2 id="learning-guides">Learning Guides</h2>
+
+<p>Check out these learning guides that provide basic background information to help you get started solving challenge problems:</p>
+<ul>
+  <li><a href="/learning_guides/Book-1-General-Skills.pdf" target="_blank">General Skills</a></li>
+  <li><a href="/learning_guides/Book-2-Cryptography.pdf" target="_blank">Cryptography</a></li>
+  <li><a href="/learning_guides/Book-3-Web-Exploitation.pdf" target="_blank">Web Exploitation</a></li>
+  <li><a href="/learning_guides/Book-4-Forensics.pdf" target="_blank">Forensics</a></li>
+  <li><a href="/learning_guides/Book-5-Binary-Exploitation.pdf" target="_blank">Binary Exploitation</a></li>
+  <li><a href="/learning_guides/Book-6-Reversing.pdf" target="_blank">Reversing</a></li>
+</ul>
+
+<p>This <a href="Pico-CTF-2018-Educational-Outcomes.pdf">document</a> outlines the learning objectives for the competition.</p>
+
+<hr />
+
+<h2 id="video-tutorials">Video Tutorials</h2>
+
+<p>Check out video tutorials for the 2017 and 2018 picoCTF competition problems on our 
+<a href="https://www.youtube.com/user/carlislemc/featured" target="_blank" rel="noopener">featured YouTube channel</a>.</p>
+
+<div class="row">
+  <div class="col-md-8 offset-md-2">
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/videoseries?list=PLJ_vkrXdcgH-lYlRV8O-kef2zWvoy79yP" allowfullscreen=""></iframe>
+    </div>
+  </div>
+</div>
+
+<p><br /> 
+<br /> 
+Thanks for reading the resources page! Here’s a flag for your time:</p>
+<ul>
+  <li><code class="highlighter-rouge">picoCTF{r3source_pag3_f1ag}</code> (2019 competition)</li>
+  <li><code class="highlighter-rouge">picoCTF{xiexie_ni_lai_zheli}</code> (2018 competition)</li>
+</ul>
+
+<hr />
+
+<h2 id="piazza">Piazza</h2>
+
+<p>If you need some more help, please reach out to us on Piazza using this <a href="https://piazza.com/picoctf/fall2019/31337" target="_blank" rel="noopener">link</a>. The access code is <code class="highlighter-rouge">31337</code>.</p>
+
+<p>We will also post challenge problem status updates to a pinned post on Piazza, including any challenge problems that are disabled or redeployed.</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer id="footer" class="">
+    
+    <div class="container pb-5 pb-md-1 text-xl-left text-center" id="standard-footer">
+        <div class="row">
+            <div class="col-xl-6 pt-4 pl-5" id="footer-left">
+                <!--<h6>DIAMOND SPONSOR</h6>
+                <img src="/img/sponsor/placeholder.png">-->
+            </div>
+            <div class="col-xl-6 pt-4" id="footer-right">
+                <div>
+                    <a href="https://cmu.edu" target="_blank" rel="noopener"><img alt="CMU Logo" height="32" width="51" src="/img/logos/cmu.png"></a>
+                    <a href="https://ini.cmu.edu"  target="_blank" rel="noopener"><img alt="INI Logo"  height="32" width="204" src="/img/logos/ini.png"></a>
+                    <a href="https://cylab.cmu.edu" target="_blank" rel="noopener"><img alt="CyLab Logo"  height="32" width="75" src="/img/logos/cylab.png"></a>
+                    <a href="http://pwning.net" target="_blank" rel="noopener"><img alt="PPP Logo"  height="32" width="32" src="/img/logos/ppp.png"></a>
+                </div>
+                <div>
+                    <a href="https://facebook.com/picoctf.competition" target="_blank" rel="noopener"><img alt="Facebook logo" src="/img/logos/facebook.png"></a>
+                    <a href="https://twitter.com/picoctf" target="_blank" rel="noopener"><img alt="Twitter logo"  src="/img/logos/twitter.png"></a>
+                    <a href="https://discord.gg/WQGdYaB" target="_blank" rel="noopener"><img alt="Discord logo"  src="/img/logos/discord.png"></a>
+                    <h5 class="ml-3 mr-auto d-inline-block text-left align-top">© Carnegie Mellon University 2019<br/>
+                        Use of this site is governed by the <a href="/privacy">Privacy Statement</a> and <a href="/terms">Terms
+                            of Service</a>.<br/>
+                    </h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="footer-bar"></div>
+</footer> <!-- footer -->
+<script src="/js/script.js"></script>
+
+</div>
+</body>
+</html>
