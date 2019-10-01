@@ -24,12 +24,12 @@
 22 	| [valut-door-1                ](./Reversing/02-vault-door-1-100/solution.md)	            | Reversing        | 100    | `picoCTF{d35cr4mbl3_tH3_cH4r4cT3r5_9d038f}`
 23	| [what's a net cat            ](./General/09-whats_a_net_cat-100/solution.md)          	| General Skills   | 100    | `picoCTF{nEtCat_Mast3ry_b1d25ece}`
 24 	| [where are the robots        ](./Web/04-where_are_the_robots-100/solution.md)        		| Web              | 100    | `picoCTF{ca1cu1at1ng_Mach1n3s_a44f7}`
-<!-- 25	| [assembly-0                  ](./Reversing/03-assembly_0-150/solution.md)        			|         | 150    | `\xb0` -->
-<!-- 26	| [buffer overflow 0           ](./Binary/01-buffer_overflow_0-150/solution.md)   			| Binary Exploit   | 150    | `picoCTF{ov3rfl0ws_ar3nt_that_bad_b49d36d2}`
-27 	| [caesar cipher 1             ](./Crypto/04-caesar_cipher_1-150/solution.md)    			| Cryptography     | 150    | `picoCTF{justagoodoldcaesarciphertobrvmri}`
-28 	| [environ                     ](./General/11-environ-150/solution.md)        				| General Skills   | 150    | `picoCTF{eNv1r0nM3nT_v4r14Bl3_fL4g_3758492}`
-29 	| [hertz                       ](./Crypto/05-hertz-150/solution.md)           				| Cryptography     | 150    | `substitution_ciphers_are_solvable_mwettfesvn`
-30	| [hex editor                  ](./Forensics/07-hex_editor-150/solution.md)       			| Forensics        | 150    | `picoCTF{and_thats_how_u_edit_hex_kittos_4bE5aCb8}`
+25	| [Overflow 1                  ](./Binary/04-overflow_1-150/solution.md)			        | Binary Exploit   | 150    | `picoCTF{n0w_w3r3_ChaNg1ng_r3tURn5a32b9368}`
+26	| [So Meta                     ](./Forensics/03-so_meta-150/solution.md)           			| Forensics        | 150    | `picoCTF{s0_m3ta_dc38ce45}`
+27 	| [What Lies Within            ](./Forensics/04-what_lies_within-150/solution.md) 			| Forensics        | 150    | `picoCTF{h1d1ng_1n_th3_b1t5}`
+28 	| [extensions                  ](./Forensics/05-extensions-150/solution.md)    				| Forensics        | 150    | `picoCTF{now_you_know_about_extensions}`
+29 	| [shark on wire 1             ](./Forensics/06-shark_on_wire-150/solution.md)              | Forensics        | 150    | `picoCTF{StaT31355_636f6e6e}`
+<!--30	| [hex editor                  ](./Forensics/07-hex_editor-150/solution.md)       			| Forensics        | 150    | `picoCTF{and_thats_how_u_edit_hex_kittos_4bE5aCb8}`
 31 	| [ssh-keyz                    ](./General/12-ssh_keyz-150/solution.md) 					| General Skills   | 150    | `picoCTF{who_n33ds_p4ssw0rds_38dj21}`
 32 	| [Irish Name Repo             ](./Web/04-irish_name_repo-200/solution.md) 					| Web              | 200    | `picoCTF{con4n_r3411y_1snt_1r1sh_c0d93e2f}`
 33	| [Mr. Robots                  ](./Web/05-mr_robots-200/solution.md)        				| Web              | 200    | `picoCTF{th3_w0rld_1s_4_danger0us_pl4c3_3lli0t_c4075}`
@@ -106,4 +106,5 @@
 103 | [Contacts                    ]()															| Binary Exploit   | 850    | ``
 104 | [Cake	 	                   ]()															| Binary Exploit   | 900    | ``
 105	| [Dog or Frog                 ]() 															| General Skills   | 900    | ``
-106 | [Flaskcards and Freedom      ](./Web/18-flaskcards_and_freedom-900/solution.md) 			| Web 			   | 900    | `` -->
+106 | [Flaskcards and Freedom      ](./Web/18-flaskcards_and_freedom-900/solution.md) 			| Web 			   | 900    | ``
+ -->
