@@ -1,0 +1,3 @@
+[submodule "tools/zsteg"]
+	path = tools/zsteg
+	url = https://github.com/zed-0xff/zsteg

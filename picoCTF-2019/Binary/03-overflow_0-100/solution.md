@@ -57,7 +57,6 @@ int main(int argc, char **argv){
     printf("Please enter an argument next time\n");
   return 0;
 }
-
 ```
 
 We need to redirect program flow to sigsegv_handler, we can just override some important stack values (which will probably cause SIGSEGV).
