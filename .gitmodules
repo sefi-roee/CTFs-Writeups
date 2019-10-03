@@ -1,3 +1,6 @@
 [submodule "tools/zsteg"]
 	path = tools/zsteg
 	url = https://github.com/zed-0xff/zsteg
+[submodule "tools/ROPgadget"]
+	path = tools/ROPgadget
+	url = https://github.com/JonathanSalwan/ROPgadget.git

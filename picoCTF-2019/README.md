@@ -1,6 +1,6 @@
     ID 	| Title                                                                       				| Category         | Pts    | Flag
 ---	| ----------------------------------------------------------------------------------------- | ---------------- | ------ | ---
-1 	| [The Factory's Secret        ](./General/01-the_factorys_secret-1/solution.md)			| General Skills   | 1      | 
+1 	| [The Factory's Secret        ](./General/01-the_factorys_secret-1/solution.md)			| General Skills   | 1      | ``
 2 	| [2Warm                       ](./General/02-2warm-50/solution.md)          				| General Skills   | 50     | `picoCTF{101010}`
 3 	| [Glory of the Garden         ](./Forensics/01-glory_of_the_garden-50/solution.md)         | Forensics        | 50     | `picoCTF{more_than_m33ts_the_3y31e0af5C7}`
 4 	| [Insp3ct0r                   ](./Web/01-insp3ct0r-50/solution.md)          				| Web              | 50     | `picoCTF{tru3_d3t3ct1ve_0r_ju5t_lucky?9df7e69a}`
@@ -29,22 +29,25 @@
 27 	| [What Lies Within            ](./Forensics/04-what_lies_within-150/solution.md) 			| Forensics        | 150    | `picoCTF{h1d1ng_1n_th3_b1t5}`
 28 	| [extensions                  ](./Forensics/05-extensions-150/solution.md)    				| Forensics        | 150    | `picoCTF{now_you_know_about_extensions}`
 29 	| [shark on wire 1             ](./Forensics/06-shark_on_wire-150/solution.md)              | Forensics        | 150    | `picoCTF{StaT31355_636f6e6e}`
-<!--30	| [hex editor                  ](./Forensics/07-hex_editor-150/solution.md)       			| Forensics        | 150    | `picoCTF{and_thats_how_u_edit_hex_kittos_4bE5aCb8}`
-31 	| [ssh-keyz                    ](./General/12-ssh_keyz-150/solution.md) 					| General Skills   | 150    | `picoCTF{who_n33ds_p4ssw0rds_38dj21}`
-32 	| [Irish Name Repo             ](./Web/04-irish_name_repo-200/solution.md) 					| Web              | 200    | `picoCTF{con4n_r3411y_1snt_1r1sh_c0d93e2f}`
-33	| [Mr. Robots                  ](./Web/05-mr_robots-200/solution.md)        				| Web              | 200    | `picoCTF{th3_w0rld_1s_4_danger0us_pl4c3_3lli0t_c4075}`
-34 	| [No Login                    ](./Web/06-no_login-200/solution.md)     					| Web              | 200    | `picoCTF{n0l0g0n_n0_pr0bl3m_50e16a5c}`
-35	| [Secret Agent                ](./Web/07-secret_agent-200/solution.md)                 	| Web              | 200    | `picoCTF{s3cr3t_ag3nt_m4n_ac87e6a7}`
-36 	| [Truly an Artist             ](./Forensics/08-truly_an_artist-200/solution.md)         	| Forensics        | 200    | `picoCTF{look_in_image_13509d38}`
-37 	| [assembly-1                  ](./Reversing/04-assembly_1-200/solution.md)        			| Reversing        | 200    | `0x73`
-38 	| [be-quick-or-be-dead-1       ](./Reversing/05-be_quick_or_be_dead_1-200/solution.md)     	| Reversing        | 200    | `picoCTF{why_bother_doing_unnecessary_computation_fedbb737}`
-39 	| [blaise's cipher             ](./Crypto/06-blaises_cipher-200/solution.md)       			| Cryptography     | 200    | `picoCTF{v1gn3r3_c1ph3rs_ar3n7_bad_cdf08bf0}`
-40 	| [buffer overflow 1           ](./Binary/02-buffer_overflow_1-200/solution.md)  			| Binary Exploit   | 200    | `picoCTF{addr3ss3s_ar3_3asyd69e032d}`
-41 	| [hertz 2                     ](./Crypto/07-hertz_2-200/solution.md)           			| Cryptography     | 200    | `picoCTF{substitution_ciphers_are_too_easy_sgsgtnpibo}`
-42 	| [leak-me                     ](./Binary/03-leak_me-200/solution.md)       				| Binary Exploit   | 200    | `picoCTF{aLw4y5_Ch3cK_tHe_bUfF3r_s1z3_d1667872}`
-43 	| [now you don't               ](./Forensics/09-now_you_dont-200/solution.md)    			| Forensics        | 200    | `picoCTF{n0w_y0u_533_m3}`
-44 	| [quackme               	   ](./Reversing/06-quackme-200/solution.md)    				| Reversing        | 200    | `picoCTF{qu4ckm3_7ed36e4b}`
-45 	| [shellcode                   ](./Binary/04-shellcode-200/solution.md) 					| Binary Exploit   | 200    | `picoCTF{shellc0de_w00h00_26e91a77}`
+30	| [Based                       ](./General/10-based-200/solution.md)       			        | General Skills   | 200    | `picoCTF{learning_about_converting_values_b515dfd2}`
+31 	| [Client-side-again           ](./Web/05-client-side-again-200/solution.md)    			| Web              | 200    | `picoCTF{not_this_again_ea9191}`
+32 	| [First Grep: Part II         ](./General/11-first_grep_part_ii-200/solution.md)   		| General Skills   | 200    | `picoCTF{grep_r_to_find_this_0e28f3ee}`
+33	| [Flags                       ](./Crypto/05-flags-200/solution.md)        			       	| Cryptography     | 200    | `PICOCTF{F1AG5AND5TUFF}`
+34 	| [Mr-Worldwide                ](./Crypto/06-mr_worldwide-200/solution.md)     				| Cryptography     | 200    | `picoCTF{KODIAK_ALASKA}`
+35  | [NewOverFLow-1               ](./Binary/05-newoverflow_1-200/solution.md)                 | Binary Exploit   | 200    | ``
+36	| [Open-to-admins              ](./Web/06-open_to_admins-200/solution.md)                 	| Web              | 200    | `picoCTF{0p3n_t0_adm1n5_dcb566bb}`
+37 	| [Tapping                     ](./Crypto/07-tapping-200/solution.md)                    	| Cryptography     | 200    | `PICOCTF{M0RS3C0D31SFUN903140448}`
+38 	| [la cifta de                 ](./Crypto/08-la_cifra_de-200/solution.md)        			| Cryptography     | 200    | `picoCTF{b311a50_0r_v1gn3r3_c1ph3raac148e7}`
+39 	| [picobrowser                 ](./Web/07-picobrowser-200/solution.md)                  	| Web              | 200    | `picoCTF{p1c0_s3cr3t_ag3nt_ee951878}`
+40 	| [plumbing                    ](./General/12-plumbing-200/solution.md)            			| General Skills   | 200    | `picoCTF{digital_plumb3r_8f946c69}`
+41  | [rsa-pop-quiz                ](./Crypto/09-rsa_pop_quiz-200/solution.md)                  | Cryptography     | 200    | `picoCTF{wA8_th4t$_ill3aGal..o4d21b3ca}`
+42 	| [slippery-shellcode          ](./Binary/06-slippery-shellcode-200/solution.md)  			| Binary Exploit   | 200    | `picoCTF{sl1pp3ry_sh311c0d3_3d79d4df}`
+43 	| [vault-door-3                ](./Reversing/03-vault_door_3-200/solution.md)               | Reversing        | 200    | `picoCTF{jU5t_a_s1mpl3_an4gr4m_4_u_90cf31}`
+44 	| [whats-the-difference        ](./General/13-whats_the_difference-200/solution.md) 		| General Skills   | 200    | `picoCTF{th3yr3_a5_d1ff3r3nt_4s_bu773r_4nd_j311y_aslkjfdsalkfslkflkjdsfdszmz10548}`
+45 	| [where-is-the-file           ](./General/14-where_is_the_file-200/solution.md)   			| General Skills   | 200    | `picoCTF{w3ll_that_d1dnt_w0RK_b2dab472}`
+46 	| [OverFlow 2              	   ](./Binary/07-overflow_2-250/solution.md)    				| Reversing        | 200    | `picoCTF{arg5_and_r3turn5e919413c}`
+
+<!-- 45 	| [shellcode                   ](./Binary/04-shellcode-200/solution.md) 					| Binary Exploit   | 200    | `picoCTF{shellc0de_w00h00_26e91a77}`
 46 	| [what base is this?          ](./General/13-what_base_is_this-200/solution.md)    		| General Skills   | 200    | `picoCTF{delusions_about_finding_values_3cc386de}`
 47 	| [you can't see me            ](./General/14-you_cant_see_me-200/solution.md)    			| General Skills   | 200    | `picoCTF{j0hn_c3na_paparapaaaaaaa_paparapaaaaaa_cf5156ef}`
 48	| [Buttons                     ](./Web/08-buttons-250/solution.md)                    		| Web              | 250    | `picoCTF{button_button_whose_got_the_button_91f6f39a}`
@@ -106,5 +109,4 @@
 103 | [Contacts                    ]()															| Binary Exploit   | 850    | ``
 104 | [Cake	 	                   ]()															| Binary Exploit   | 900    | ``
 105	| [Dog or Frog                 ]() 															| General Skills   | 900    | ``
-106 | [Flaskcards and Freedom      ](./Web/18-flaskcards_and_freedom-900/solution.md) 			| Web 			   | 900    | ``
- -->
+106 | [Flaskcards and Freedom      ](./Web/18-flaskcards_and_freedom-900/solution.md) 			| Web 			   | 900    | `` -->
