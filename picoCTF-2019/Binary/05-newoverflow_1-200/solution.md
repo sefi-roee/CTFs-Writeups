@@ -70,7 +70,7 @@ Stopped reason: SIGSEGV
 $1 = (void *) 0x4949494949494949
 ```
 
-We know that ```IIIIIIII``` overrides the return address.
+We know that ```JJJJJJJJ``` overrides the return address.
 
 Now lets write a simple python script:
 ```python
