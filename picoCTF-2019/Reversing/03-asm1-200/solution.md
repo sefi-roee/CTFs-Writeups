@@ -1,7 +1,6 @@
 # Problem
 What does asm1(0x53e) return? Submit the flag as a hexadecimal value (starting with '0x'). NOTE: Your submission for this question will NOT be in the normal flag format. [Source](https://2019shell1.picoctf.com/static/646a8167294d5c95b6446576264f24ab/test.S) located in the directory at /problems/asm1_4_431c7088e03c0028398793773ccf89d7.
 
-
 ## Hints:
 
 assembly [conditions](https://www.tutorialspoint.com/assembly_programming/assembly_conditions.htm)
