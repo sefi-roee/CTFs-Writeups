@@ -4,3 +4,6 @@
 [submodule "tools/ROPgadget"]
 	path = tools/ROPgadget
 	url = https://github.com/JonathanSalwan/ROPgadget.git
+[submodule "tools/jwt_tool"]
+	path = tools/jwt_tool
+	url = https://github.com/ticarpi/jwt_tool.git
