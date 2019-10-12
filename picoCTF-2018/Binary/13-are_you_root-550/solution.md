@@ -169,7 +169,7 @@ This program lets us do few things:
 * reset - if logged in, free ```user->name``` and set pointer to ```null```.
 * quit - I couldn't understand what this options do. too hard :(
 
-The ```user``` stack is:
+The ```user``` struct is:
 ```c
 struct user {
   char *name;
