@@ -24,11 +24,30 @@ Server:   bandit.labs.overthewire.org
 Port:     2220
 ```
 
-| Level                                                          | Password                         | Solution                      |
-| -------------------------------------------------------------- | -------------------------------- | ------------------------------|
-| [Level 0](http://overthewire.org/wargames/bandit/bandit0.html) |                                  | [Link](./level_0/README.md)   |
-| [Level 1](http://overthewire.org/wargames/bandit/bandit1.html) | boJ9jbbUNNfktd78OOpsqOltutMc3MY1 | [Link](./level_1/README.md)   |
-| [Level 2](http://overthewire.org/wargames/bandit/bandit2.html) | CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9 | [Link](./level_2/README.md)   |
-| [Level 3](http://overthewire.org/wargames/bandit/bandit3.html) | UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK | [Link](./level_3/README.md)   |
-| [Level 4](http://overthewire.org/wargames/bandit/bandit4.html) | pIwrPrtPN36QITSp3EQaw936yaFoFgAB | [Link](./level_4/README.md)   |
-| [Level 5](http://overthewire.org/wargames/bandit/bandit5.html) | koReBOKuIDDepwhWk7jZC0RTdopnAYKh | [Link](./level_5/README.md)   |
+| Level                                                           | Password                         | Solution                      |
+| --------------------------------------------------------------- | -------------------------------- | ------------------------------|
+| [Level 0](http://overthewire.org/wargames/bandit/bandit1.html)  |                                  | [Link](./level_0/README.md)   |
+| [Level 1](http://overthewire.org/wargames/bandit/bandit2.html)  | boJ9jbbUNNfktd78OOpsqOltutMc3MY1 | [Link](./level_1/README.md)   |
+| [Level 2](http://overthewire.org/wargames/bandit/bandit3.html)  | CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9 | [Link](./level_2/README.md)   |
+| [Level 3](http://overthewire.org/wargames/bandit/bandit4.html)  | UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK | [Link](./level_3/README.md)   |
+| [Level 4](http://overthewire.org/wargames/bandit/bandit5.html)  | pIwrPrtPN36QITSp3EQaw936yaFoFgAB | [Link](./level_4/README.md)   |
+| [Level 5](http://overthewire.org/wargames/bandit/bandit6.html)  | koReBOKuIDDepwhWk7jZC0RTdopnAYKh | [Link](./level_5/README.md)   |
+| [Level 6](http://overthewire.org/wargames/bandit/bandit7.html)  | DXjZPULLxYr17uwoI01bNLQbtFemEgo7 | [Link](./level_6/README.md)   |
+| [Level 7](http://overthewire.org/wargames/bandit/bandit8.html)  | HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs | [Link](./level_7/README.md)   |
+| [Level 8](http://overthewire.org/wargames/bandit/bandit9.html)  | cvX2JJa4CFALtqS87jk27qwqGhBM9plV | [Link](./level_8/README.md)   |
+| [Level 9](http://overthewire.org/wargames/bandit/bandit10.html) | UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR | [Link](./level_9/README.md)   |
+| [Level 10](http://overthewire.org/wargames/bandit/bandit11.html)| truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk | [Link](./level_10/README.md)  |
+| [Level 11](http://overthewire.org/wargames/bandit/bandit12.html)| IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR | [Link](./level_11/README.md)  |
+| [Level 12](http://overthewire.org/wargames/bandit/bandit13.html)| 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu | [Link](./level_12/README.md)  |
+| [Level 13](http://overthewire.org/wargames/bandit/bandit14.html)| 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL | [Link](./level_13/README.md)  |
+| [Level 14](http://overthewire.org/wargames/bandit/bandit15.html)| 4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e | [Link](./level_14/README.md)  |
+| [Level 15](http://overthewire.org/wargames/bandit/bandit16.html)| BfMYroe26WYalil77FoDi9qh59eK5xNr | [Link](./level_15/README.md)  |
+| [Level 16](http://overthewire.org/wargames/bandit/bandit17.html)| cluFn7wTiGryunymYOu4RcffSxQluehd | [Link](./level_16/README.md)  |
+| [Level 17](http://overthewire.org/wargames/bandit/bandit18.html)| *We have an RSA private key*     | [Link](./level_17/README.md)  |
+| [Level 18](http://overthewire.org/wargames/bandit/bandit19.html)| kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd | [Link](./level_18/README.md)  |
+| [Level 19](http://overthewire.org/wargames/bandit/bandit20.html)| IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x | [Link](./level_19/README.md)  |
+| [Level 20](http://overthewire.org/wargames/bandit/bandit21.html)| GbKksEFF4yrVs6il55v6gwY5aVje5f0j | [Link](./level_20/README.md)  |
+| [Level 21](http://overthewire.org/wargames/bandit/bandit22.html)| gE269g2h3mw3pwgrj0Ha9Uoqen1c9DGr | [Link](./level_21/README.md)  |
+| [Level 22](http://overthewire.org/wargames/bandit/bandit23.html)| Yk7owGAcWjwMVRwrTesJEwB7WVOiILLI | [Link](./level_22/README.md)  |
+| [Level 23](http://overthewire.org/wargames/bandit/bandit24.html)| jc1udXuA1tiHqjIsL8yaapX5XIAI6i0n | [Link](./level_23/README.md)  |
+| [Level 24](http://overthewire.org/wargames/bandit/bandit25.html)| UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ | [Link](./level_24/README.md)  |
