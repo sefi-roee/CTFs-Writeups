@@ -78,6 +78,7 @@ ID      | Title                                                                 
 83      | [rop32                       ](./Binary/17-rop32-400/solution.md)                                     | Binary Exploit   | 400    | `picoCTF{rOp_t0_b1n_sH_dee2e288}`
 84      | [rop64                       ](./Binary/18-rop64-400/solution.md)                                     | Binary Exploit   | 400    | `picoCTF{rOp_t0_b1n_sH_w1tH_n3w_g4dg3t5_d4b7a298}`
 85      | [vault-door-7                ](./Reversing/12-vault_door_7-400/solution.md)                           | Reversing        | 400    | `picoCTF{A_b1t_0f_b1t_sh1fTiNg_97cb1f367b}`
+86      | [**Java Script Kiddie 2**        ](./Web/13-java_script_kiddie_2-450/solution.md)                         | Web              | 450    | `picoCTF{f1ee7ff44419a675d1a0f0a1a91dff4c}`
 87      | [b00tl3gRSA3                 ](./Crypto/14-b00tl3gRSA3-450/solution.md)                               | Cryptography     | 450    | `picoCTF{too_many_fact0rs_3978938}`
 89      | [vault-door-8                ](./Reversing/13-vault_door_8-450/solution.md)                           | Reversing        | 400    | `picoCTF{s0m3_m0r3_b1t_sh1fTiNg_60bea5ea1}`
 91      | [john_pollard                ](./Crypto/15-john_pollard-500/solution.md)                              | Cryptography     | 500    | `picoCTF{73176001,67867967}`
@@ -91,6 +92,7 @@ ID      | Title                                                                 
 <!-- 76      | [AES-ABC                     ](./CCrypto/12-AES_ABC-400/solution.md)                                  | Cryptography     | 400    | `` -->
 <!-- 77      | [Empire1                     ](./Web/10-empire_1-400/solution.md)                                     | Web              | 400    | `` -->
 <!-- 80      | [L1im1lT355                  ](./Binary/16-L1im1tL355-400/solution.md)                                | Binary Exploit   | 400    | `` -->
-<!-- 86      | [Java Script Kiddie 2        ](./Web/13-java_script_kiddie_2-450/solution.md)                         | Web              | 450    | `` -->
 <!-- 88      | [cereal hacker 1             ](./Web/14-cereal_hacker_1-450/solution.md)                              | Web              | 450    | `` -->
 <!-- 90      | [Ghost_Diary                 ](./Binary/19-ghost_diary-500/solution.md)                               | Binary Exploit   | 500    | `` -->
+
+**In bold the challenges I solved only after competition ended**
