@@ -70,6 +70,7 @@ ID      | Title                                                                 
 70      | [1_wanna_b3_a_r0ck5tar       ](./General/17-1_wanna_b3_a_r0ck5tar-350/solution.md)                    | General Skills   | 350    | `picoCTF{BONJOVI}`
 71      | [GoT                         ](./Binary/13-GoT-350/solution.md)                                       | Binary Exploit   | 350    | `picoCTF{A_s0ng_0f_1C3_and_f1r3_1ef72b2d}`
 73      | [pointy                      ](./Binary/14-pointy-350/solution.md)                                    | Binary Exploit   | 350    | `picoCTF{g1v1ng_d1R3Ct10n5_cad9c1b8}`
+74      | [seed-sPRiNG                 ](./Binary/15-seed_sPRiNG-350/solution.md)                               | Binary Exploit   | 350    | `picoCTF{pseudo_random_number_generator_not_so_random_829c50d19ba2bdb441975c0dabfcc1c0}`
 75      | [vault-door-6                ](./Reversing/10-vault_door_6-350/solution.md)                           | Reversing        | 350    | `picoCTF{n0t_mUcH_h4rD3r_tH4n_x0r_aedeced}`
 78      | [JaWT Scratchpad             ](./Web/11-JaWT_scratchpad-400/solution.md)                              | Web              | 400    | `picoCTF{jawt_was_just_what_you_thought_c84a0d3754338763548dfc2dc171cdd0}`
 79      | [Java Script Kiddie          ](./Web/12-java_script_kiddie-400/solution.md)                           | Web              | 400    | `picoCTF{5184e4f12d91ca0e13de639627b4bb6a}`
@@ -88,7 +89,6 @@ ID      | Title                                                                 
 <!-- 65      | [reverse_cipher                        ](./Reversing/07-asm3-300/solution.md)                       | Reversing        | 300    | `0xa72e` -->
 <!-- 66      | [shark on wire 2                    ](./Forensics/09-like1000-250/solution.md)                   | Forensics        | 250    | `picoCTF{l0t5_0f_TAR5}` -->
 <!-- 72      | [Irish-Name-Repo 2           ](./Web/09-irish_name_repo_2-350/solution.md)                            | Web              | 350    | `` -->
-<!-- 74      | [seed-sPRiNG                 ](./Binary/15-seed_sPRiNG-350/solution.md)                               | Binary Exploit   | 350    | `` -->
 <!-- 76      | [AES-ABC                     ](./CCrypto/12-AES_ABC-400/solution.md)                                  | Cryptography     | 400    | `` -->
 <!-- 77      | [Empire1                     ](./Web/10-empire_1-400/solution.md)                                     | Web              | 400    | `` -->
 <!-- 80      | [L1im1lT355                  ](./Binary/16-L1im1tL355-400/solution.md)                                | Binary Exploit   | 400    | `` -->
