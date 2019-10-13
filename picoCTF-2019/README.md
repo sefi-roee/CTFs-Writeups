@@ -61,6 +61,7 @@ ID      | Title                                                                 
 57      | [Irish-Name-Repo 1           ](./Web/08-irish_name_repo_1-300/solution.md)                            | Web              | 300    | `picoCTF{s0m3_SQL_96ab211c}`
 58      | [asm3                        ](./Reversing/07-asm3-300/solution.md)                                   | Reversing        | 300    | `0xa72e`
 59      | [flag_shop                   ](./General/15-flag_shop-300/solution.md)                                | General Skills   | 300    | `picoCTF{m0n3y_bag5_34c9a5f7}`
+60      | [**leap-frog**                   ](./Binary/10-leap_frog-300/solution.md)                                 | Binary Exploit   | 300    | `picoCTF{h0p_r0p_t0p_y0uR_w4y_t0_v1ct0rY_ce26a829}`
 61      | [m00nwalk2                   ](./Forensics/12-m00nwalk2-300/solution.md)                              | Forensics        | 300    | `picoCTF{the_answer_lies_hidden_in_plain_sight}`
 63      | [miniRSA                     ](./Crypto/08-la_cifra_de-200/solution.md)                               | Cryptography     | 300    | `picoCTF{n33d_a_lArg3r_e_21d2334d}`
 64      | [mus1c                       ](./General/16-mus1c-300/solution.md)                                    | General Skills   | 300    | `picoCTF{rrrocknrn0113r}`
@@ -70,7 +71,7 @@ ID      | Title                                                                 
 70      | [1_wanna_b3_a_r0ck5tar       ](./General/17-1_wanna_b3_a_r0ck5tar-350/solution.md)                    | General Skills   | 350    | `picoCTF{BONJOVI}`
 71      | [GoT                         ](./Binary/13-GoT-350/solution.md)                                       | Binary Exploit   | 350    | `picoCTF{A_s0ng_0f_1C3_and_f1r3_1ef72b2d}`
 73      | [pointy                      ](./Binary/14-pointy-350/solution.md)                                    | Binary Exploit   | 350    | `picoCTF{g1v1ng_d1R3Ct10n5_cad9c1b8}`
-74      | [seed-sPRiNG                 ](./Binary/15-seed_sPRiNG-350/solution.md)                               | Binary Exploit   | 350    | `picoCTF{pseudo_random_number_generator_not_so_random_829c50d19ba2bdb441975c0dabfcc1c0}`
+74      | [**seed-sPRiNG**                 ](./Binary/15-seed_sPRiNG-350/solution.md)                               | Binary Exploit   | 350    | `picoCTF{pseudo_random_number_generator_not_so_random_829c50d19ba2bdb441975c0dabfcc1c0}`
 75      | [vault-door-6                ](./Reversing/10-vault_door_6-350/solution.md)                           | Reversing        | 350    | `picoCTF{n0t_mUcH_h4rD3r_tH4n_x0r_aedeced}`
 78      | [JaWT Scratchpad             ](./Web/11-JaWT_scratchpad-400/solution.md)                              | Web              | 400    | `picoCTF{jawt_was_just_what_you_thought_c84a0d3754338763548dfc2dc171cdd0}`
 79      | [Java Script Kiddie          ](./Web/12-java_script_kiddie-400/solution.md)                           | Web              | 400    | `picoCTF{5184e4f12d91ca0e13de639627b4bb6a}`
@@ -84,7 +85,6 @@ ID      | Title                                                                 
 89      | [vault-door-8                ](./Reversing/13-vault_door_8-450/solution.md)                           | Reversing        | 400    | `picoCTF{s0m3_m0r3_b1t_sh1fTiNg_60bea5ea1}`
 91      | [john_pollard                ](./Crypto/15-john_pollard-500/solution.md)                              | Cryptography     | 500    | `picoCTF{73176001,67867967}`
 <!-- 56      | [Investigative Reversing 0   ](./Forensics/Forensics/11-investigative_reversing_0-300/solution.md)    | Forensics        | 300    | `` -->
-<!-- 60      | [leap-frog                      ](./Binary/09-canary-300/solution.md)                        | Binary Exploit   | 300    | `` -->
 <!-- 62      | [messy-malloc                      ](./Binary/09-canary-300/solution.md)                        | Binary Exploit   | 300    | `` -->
 <!-- 65      | [reverse_cipher                        ](./Reversing/07-asm3-300/solution.md)                       | Reversing        | 300    | `0xa72e` -->
 <!-- 66      | [shark on wire 2                    ](./Forensics/09-like1000-250/solution.md)                   | Forensics        | 250    | `picoCTF{l0t5_0f_TAR5}` -->
