@@ -18,9 +18,11 @@ wget https://2019shell1.picoctf.com/static/ae3e9fb0aa6dd438251939839a7a6f21/myst
 ```
 
 We have some binary, and this image:
+
 ![mystery](./mystery.png)
 
 Trying disassemble the binary with IDA:
+
 ![screenshot-1](./screenshot-1.png)
 ![screenshot-2](./screenshot-2.png)
 ![screenshot-3](./screenshot-3.png)
