@@ -58,6 +58,7 @@ ID      | Title                                                                 
 53      | [m00nwalk                    ](./Forensics/10-m00nwalk-250/solution.md)                               | Forensics        | 250    | `picoCTF{beep_boop_im_in_space}`
 54      | [vault-door-4                ](./Reversing/06-vault_door_4-250/solution.md)                           | Reversing        | 250    | `picoCTF{jU5t_4_bUnCh_0f_bYt3s_201b352d6c}`
 55      | [CanaRy                      ](./Binary/09-canary-300/solution.md)                                    | Binary Exploit   | 300    | `picoCTF{cAnAr135_mU5t_b3_r4nd0m!_069c6f48}`
+56      | [Investigative Reversing 0   ](./Forensics/Forensics/11-investigative_reversing_0-300/solution.md)    | Forensics        | 300    | `picoCTF{f0und_1t_57d0d47c}`
 57      | [Irish-Name-Repo 1           ](./Web/08-irish_name_repo_1-300/solution.md)                            | Web              | 300    | `picoCTF{s0m3_SQL_96ab211c}`
 58      | [asm3                        ](./Reversing/07-asm3-300/solution.md)                                   | Reversing        | 300    | `0xa72e`
 59      | [flag_shop                   ](./General/15-flag_shop-300/solution.md)                                | General Skills   | 300    | `picoCTF{m0n3y_bag5_34c9a5f7}`
@@ -84,7 +85,6 @@ ID      | Title                                                                 
 87      | [b00tl3gRSA3                 ](./Crypto/14-b00tl3gRSA3-450/solution.md)                               | Cryptography     | 450    | `picoCTF{too_many_fact0rs_3978938}`
 89      | [vault-door-8                ](./Reversing/13-vault_door_8-450/solution.md)                           | Reversing        | 400    | `picoCTF{s0m3_m0r3_b1t_sh1fTiNg_60bea5ea1}`
 91      | [john_pollard                ](./Crypto/15-john_pollard-500/solution.md)                              | Cryptography     | 500    | `picoCTF{73176001,67867967}`
-<!-- 56      | [Investigative Reversing 0   ](./Forensics/Forensics/11-investigative_reversing_0-300/solution.md)    | Forensics        | 300    | `` -->
 <!-- 62      | [messy-malloc                      ](./Binary/09-canary-300/solution.md)                        | Binary Exploit   | 300    | `` -->
 <!-- 65      | [reverse_cipher                        ](./Reversing/07-asm3-300/solution.md)                       | Reversing        | 300    | `0xa72e` -->
 <!-- 66      | [shark on wire 2                    ](./Forensics/09-like1000-250/solution.md)                   | Forensics        | 250    | `picoCTF{l0t5_0f_TAR5}` -->
