@@ -58,39 +58,48 @@ ID      | Title                                                                 
 53      | [m00nwalk                    ](./Forensics/10-m00nwalk-250/solution.md)                               | Forensics        | 250    | `picoCTF{beep_boop_im_in_space}`
 54      | [vault-door-4                ](./Reversing/06-vault_door_4-250/solution.md)                           | Reversing        | 250    | `picoCTF{jU5t_4_bUnCh_0f_bYt3s_201b352d6c}`
 55      | [CanaRy                      ](./Binary/09-canary-300/solution.md)                                    | Binary Exploit   | 300    | `picoCTF{cAnAr135_mU5t_b3_r4nd0m!_069c6f48}`
-56      | [Investigative Reversing 0   ](./Forensics/Forensics/11-investigative_reversing_0-300/solution.md)    | Forensics        | 300    | `picoCTF{f0und_1t_57d0d47c}`
+56      | [**Investigative Reversing 0**   ](./Forensics/Forensics/11-investigative_reversing_0-300/solution.md)    | Forensics        | 300    | `picoCTF{f0und_1t_57d0d47c}`
 57      | [Irish-Name-Repo 1           ](./Web/08-irish_name_repo_1-300/solution.md)                            | Web              | 300    | `picoCTF{s0m3_SQL_96ab211c}`
 58      | [asm3                        ](./Reversing/07-asm3-300/solution.md)                                   | Reversing        | 300    | `0xa72e`
-59      | [flag_shop                   ](./General/15-flag_shop-300/solution.md)                                | General Skills   | 300    | `picoCTF{m0n3y_bag5_34c9a5f7}`
-60      | [**leap-frog**                   ](./Binary/10-leap_frog-300/solution.md)                                 | Binary Exploit   | 300    | `picoCTF{h0p_r0p_t0p_y0uR_w4y_t0_v1ct0rY_ce26a829}`
-61      | [m00nwalk2                   ](./Forensics/12-m00nwalk2-300/solution.md)                              | Forensics        | 300    | `picoCTF{the_answer_lies_hidden_in_plain_sight}`
-63      | [miniRSA                     ](./Crypto/08-la_cifra_de-200/solution.md)                               | Cryptography     | 300    | `picoCTF{n33d_a_lArg3r_e_21d2334d}`
-64      | [mus1c                       ](./General/16-mus1c-300/solution.md)                                    | General Skills   | 300    | `picoCTF{rrrocknrn0113r}`
-65      | [**reverse_cipher**              ](./Reversing/08-reverse_cipher-300/solution.md)                         | Reversing        | 300    | `picoCTF{r3v3rs35f207e7a}`
-67      | [stringzz                    ](./Binary/12-stringzz-300/solution.md)                                  | Binary Exploit   | 300    | `picoCTF{str1nG_CH3353_159c98a8}`
-68      | [vault-door-5                ](./Reversing/09-vault_door_5-300/solution.md)                           | Reversing        | 300    | `frequency_is_c_over_lambda_drtmtnddlw`
-69      | [waves over lambda           ](./Crypto/11-waves_over_lambda-300/solution.md)                         | Cryptography     | 300    | `picoCTF{n33d_a_lArg3r_e_21d2334d}`
-70      | [1_wanna_b3_a_r0ck5tar       ](./General/17-1_wanna_b3_a_r0ck5tar-350/solution.md)                    | General Skills   | 350    | `picoCTF{BONJOVI}`
-71      | [GoT                         ](./Binary/13-GoT-350/solution.md)                                       | Binary Exploit   | 350    | `picoCTF{A_s0ng_0f_1C3_and_f1r3_1ef72b2d}`
-73      | [pointy                      ](./Binary/14-pointy-350/solution.md)                                    | Binary Exploit   | 350    | `picoCTF{g1v1ng_d1R3Ct10n5_cad9c1b8}`
-74      | [**seed-sPRiNG**                 ](./Binary/15-seed_sPRiNG-350/solution.md)                               | Binary Exploit   | 350    | `picoCTF{pseudo_random_number_generator_not_so_random_829c50d19ba2bdb441975c0dabfcc1c0}`
-75      | [vault-door-6                ](./Reversing/10-vault_door_6-350/solution.md)                           | Reversing        | 350    | `picoCTF{n0t_mUcH_h4rD3r_tH4n_x0r_aedeced}`
-78      | [JaWT Scratchpad             ](./Web/11-JaWT_scratchpad-400/solution.md)                              | Web              | 400    | `picoCTF{jawt_was_just_what_you_thought_c84a0d3754338763548dfc2dc171cdd0}`
-79      | [Java Script Kiddie          ](./Web/12-java_script_kiddie-400/solution.md)                           | Web              | 400    | `picoCTF{5184e4f12d91ca0e13de639627b4bb6a}`
-81      | [asm4                        ](./Reversing/11-asm4-400/solution.md)                                   | Reversing        | 400    | `0x23c`
+59      | [**droids0**                     ](./Reversing/08-droids0-300/solution.md)                                   | Reversing        | 300    | `picoCTF{a.moose.once.bit.my.sister}`
+60      | [flag_shop                   ](./General/15-flag_shop-300/solution.md)                                | General Skills   | 300    | `picoCTF{m0n3y_bag5_34c9a5f7}`
+61      | [**leap-frog**                   ](./Binary/10-leap_frog-300/solution.md)                                 | Binary Exploit   | 300    | `picoCTF{h0p_r0p_t0p_y0uR_w4y_t0_v1ct0rY_ce26a829}`
+62      | [m00nwalk2                   ](./Forensics/12-m00nwalk2-300/solution.md)                              | Forensics        | 300    | `picoCTF{the_answer_lies_hidden_in_plain_sight}`
+63      | [**messy-malloc**                ](./Binary/11-messy_malloc-300/solution.md)                              | Binary Exploit   | 300    | `picoCTF{g0ttA_cl3aR_y0uR_m4110c3d_m3m0rY_ac0e0e6a}`
+64      | [miniRSA                     ](./Crypto/08-la_cifra_de-200/solution.md)                               | Cryptography     | 300    | `picoCTF{n33d_a_lArg3r_e_21d2334d}`
+65      | [mus1c                       ](./General/16-mus1c-300/solution.md)                                    | General Skills   | 300    | `picoCTF{rrrocknrn0113r}`
+66      | [**reverse_cipher**              ](./Reversing/9-reverse_cipher-300/solution.md)                         | Reversing        | 300    | `picoCTF{r3v3rs35f207e7a}`
+67      | [shark on wire 2             ](./Forensics/13-shark_on_wire_2-300/solution.md)                        | Forensics        | 300    | ``
+68      | [stringzz                    ](./Binary/12-stringzz-300/solution.md)                                  | Binary Exploit   | 300    | `picoCTF{str1nG_CH3353_159c98a8}`
+69      | [vault-door-5                ](./Reversing/10-vault_door_5-300/solution.md)                           | Reversing        | 300    | `frequency_is_c_over_lambda_drtmtnddlw`
+70      | [waves over lambda           ](./Crypto/11-waves_over_lambda-300/solution.md)                         | Cryptography     | 300    | `picoCTF{n33d_a_lArg3r_e_21d2334d}`
+71      | [1_wanna_b3_a_r0ck5tar       ](./General/17-1_wanna_b3_a_r0ck5tar-350/solution.md)                    | General Skills   | 350    | `picoCTF{BONJOVI}`
+72      | [GoT                         ](./Binary/13-GoT-350/solution.md)                                       | Binary Exploit   | 350    | `picoCTF{A_s0ng_0f_1C3_and_f1r3_1ef72b2d}`
+73      | [**Investigative Reversing 1**   ](./Forensics/14-investigative_reversing_1-350/solution.md)              | Forensics        | 350    | `picoCTF{An0tha_1_54503d8}`
+73      | [**Investigative Reversing 2**   ](./Forensics/15-investigative_reversing_2-350/solution.md)              | Forensics        | 350    | `picoCTF{n3xt_0n300000000000000000000000002133b312}`
+74      | [Irish-Name-Repo 2           ](./Web/09-irish_name_repo_2-350/solution.md)                            | Web              | 350    | ``
+75      | [**droids1**                     ](./Reversing/10-droids1-350/solution.md)                                   | Reversing        | 350    | ``
+76      | [**pastaAAA**                    ](./Forensics/Forensics/11-investigative_reversing_0-300/solution.md)    | Forensics        | 300    | `picoCTF{pa$ta_1s_lyf3}`
+76      | [pointy                      ](./Binary/14-pointy-350/solution.md)                                    | Binary Exploit   | 350    | `picoCTF{g1v1ng_d1R3Ct10n5_cad9c1b8}`
+77      | [**seed-sPRiNG**                 ](./Binary/15-seed_sPRiNG-350/solution.md)                               | Binary Exploit   | 350    | `picoCTF{pseudo_random_number_generator_not_so_random_829c50d19ba2bdb441975c0dabfcc1c0}`
+78      | [vault-door-6                ](./Reversing/11-vault_door_6-350/solution.md)                           | Reversing        | 350    | `picoCTF{n0t_mUcH_h4rD3r_tH4n_x0r_aedeced}`
+79      | [**AES-ABC**                     ](./CCrypto/12-AES_ABC-400/solution.md)                                  | Cryptography     | 400    | `picoCTF{d0Nt_r0ll_yoUr_0wN_aES}`
+80      | [Empire1                     ](./Web/10-empire_1-400/solution.md)                                     | Web              | 400    | ``
+81      | [JaWT Scratchpad             ](./Web/11-JaWT_scratchpad-400/solution.md)                              | Web              | 400    | `picoCTF{jawt_was_just_what_you_thought_c84a0d3754338763548dfc2dc171cdd0}`
+*      | [Need For Speed              ](./)                           | Reversing              | 400    | `PICOCTF{Good job keeping bus #3b89d39c speeding along!}`
+*      | [Time's Up              ](./)                           | Reversing              | 400    | `picoCTF{Gotta go fast. Gotta go FAST. #046cc375}`
+
+78      | [vault-door-6                ](./Reversing/11-vault_door_6-350/solution.md)                           | Reversing        | 350    | `picoCTF{n0t_mUcH_h4rD3r_tH4n_x0r_aedeced}`
+PICOCTF{Good job keeping bus #3b89d39c speeding along!}
+81      | [asm4                        ](./Reversing/12-asm4-400/solution.md)                                   | Reversing        | 400    | `0x23c`
 82      | [b00tl3gRSA2                 ](./Crypto/13-b00tl3gRSA2-400/solution.md)                               | Cryptography     | 400    | `picoCTF{bad_1d3a5_3468581}`
 83      | [rop32                       ](./Binary/17-rop32-400/solution.md)                                     | Binary Exploit   | 400    | `picoCTF{rOp_t0_b1n_sH_dee2e288}`
 84      | [rop64                       ](./Binary/18-rop64-400/solution.md)                                     | Binary Exploit   | 400    | `picoCTF{rOp_t0_b1n_sH_w1tH_n3w_g4dg3t5_d4b7a298}`
-85      | [vault-door-7                ](./Reversing/12-vault_door_7-400/solution.md)                           | Reversing        | 400    | `picoCTF{A_b1t_0f_b1t_sh1fTiNg_97cb1f367b}`
+85      | [vault-door-7                ](./Reversing/13-vault_door_7-400/solution.md)                           | Reversing        | 400    | `picoCTF{A_b1t_0f_b1t_sh1fTiNg_97cb1f367b}`
 86      | [**Java Script Kiddie 2**        ](./Web/13-java_script_kiddie_2-450/solution.md)                         | Web              | 450    | `picoCTF{f1ee7ff44419a675d1a0f0a1a91dff4c}`
 87      | [b00tl3gRSA3                 ](./Crypto/14-b00tl3gRSA3-450/solution.md)                               | Cryptography     | 450    | `picoCTF{too_many_fact0rs_3978938}`
-89      | [vault-door-8                ](./Reversing/13-vault_door_8-450/solution.md)                           | Reversing        | 400    | `picoCTF{s0m3_m0r3_b1t_sh1fTiNg_60bea5ea1}`
+89      | [vault-door-8                ](./Reversing/14-vault_door_8-450/solution.md)                           | Reversing        | 400    | `picoCTF{s0m3_m0r3_b1t_sh1fTiNg_60bea5ea1}`
 91      | [john_pollard                ](./Crypto/15-john_pollard-500/solution.md)                              | Cryptography     | 500    | `picoCTF{73176001,67867967}`
-<!-- 62      | [messy-malloc                      ](./Binary/09-canary-300/solution.md)                        | Binary Exploit   | 300    | `` -->
-<!-- 66      | [shark on wire 2                    ](./Forensics/09-like1000-250/solution.md)                   | Forensics        | 250    | `picoCTF{l0t5_0f_TAR5}` -->
-<!-- 72      | [Irish-Name-Repo 2           ](./Web/09-irish_name_repo_2-350/solution.md)                            | Web              | 350    | `` -->
-<!-- 76      | [AES-ABC                     ](./CCrypto/12-AES_ABC-400/solution.md)                                  | Cryptography     | 400    | `` -->
-<!-- 77      | [Empire1                     ](./Web/10-empire_1-400/solution.md)                                     | Web              | 400    | `` -->
 <!-- 80      | [L1im1lT355                  ](./Binary/16-L1im1tL355-400/solution.md)                                | Binary Exploit   | 400    | `` -->
 <!-- 88      | [cereal hacker 1             ](./Web/14-cereal_hacker_1-450/solution.md)                              | Web              | 450    | `` -->
 <!-- 90      | [Ghost_Diary                 ](./Binary/19-ghost_diary-500/solution.md)                               | Binary Exploit   | 500    | `` -->
