@@ -68,8 +68,8 @@ ID      | Title                                                                 
 63      | [**messy-malloc**                ](./Binary/11-messy_malloc-300/solution.md)                              | Binary Exploit   | 300    | `picoCTF{g0ttA_cl3aR_y0uR_m4110c3d_m3m0rY_ac0e0e6a}`
 64      | [miniRSA                     ](./Crypto/08-la_cifra_de-200/solution.md)                               | Cryptography     | 300    | `picoCTF{n33d_a_lArg3r_e_21d2334d}`
 65      | [mus1c                       ](./General/16-mus1c-300/solution.md)                                    | General Skills   | 300    | `picoCTF{rrrocknrn0113r}`
-66      | [**reverse_cipher**              ](./Reversing/9-reverse_cipher-300/solution.md)                         | Reversing        | 300    | `picoCTF{r3v3rs35f207e7a}`
-67      | [shark on wire 2             ](./Forensics/13-shark_on_wire_2-300/solution.md)                        | Forensics        | 300    | ``
+66      | [**reverse_cipher**              ](./Reversing/09-reverse_cipher-300/solution.md)                         | Reversing        | 300    | `picoCTF{r3v3rs35f207e7a}`
+67      | [**shark on wire 2**             ](./Forensics/13-shark_on_wire_2-300/solution.md)                        | Forensics        | 300    | `picoCTF{p1LLf3r3d_data_v1a_st3g0}`
 68      | [stringzz                    ](./Binary/12-stringzz-300/solution.md)                                  | Binary Exploit   | 300    | `picoCTF{str1nG_CH3353_159c98a8}`
 69      | [vault-door-5                ](./Reversing/10-vault_door_5-300/solution.md)                           | Reversing        | 300    | `frequency_is_c_over_lambda_drtmtnddlw`
 70      | [waves over lambda           ](./Crypto/11-waves_over_lambda-300/solution.md)                         | Cryptography     | 300    | `picoCTF{n33d_a_lArg3r_e_21d2334d}`
@@ -77,7 +77,7 @@ ID      | Title                                                                 
 72      | [GoT                         ](./Binary/13-GoT-350/solution.md)                                       | Binary Exploit   | 350    | `picoCTF{A_s0ng_0f_1C3_and_f1r3_1ef72b2d}`
 73      | [**Investigative Reversing 1**   ](./Forensics/14-investigative_reversing_1-350/solution.md)              | Forensics        | 350    | `picoCTF{An0tha_1_54503d8}`
 73      | [**Investigative Reversing 2**   ](./Forensics/15-investigative_reversing_2-350/solution.md)              | Forensics        | 350    | `picoCTF{n3xt_0n300000000000000000000000002133b312}`
-74      | [Irish-Name-Repo 2           ](./Web/09-irish_name_repo_2-350/solution.md)                            | Web              | 350    | ``
+74      | [**Irish-Name-Repo 2**           ](./Web/09-irish_name_repo_2-350/solution.md)                            | Web              | 350    | `picoCTF{m0R3_SQL_plz_c1c3dff7}`
 75      | [**droids1**                     ](./Reversing/10-droids1-350/solution.md)                                   | Reversing        | 350    | ``
 76      | [**pastaAAA**                    ](./Forensics/Forensics/11-investigative_reversing_0-300/solution.md)    | Forensics        | 300    | `picoCTF{pa$ta_1s_lyf3}`
 76      | [pointy                      ](./Binary/14-pointy-350/solution.md)                                    | Binary Exploit   | 350    | `picoCTF{g1v1ng_d1R3Ct10n5_cad9c1b8}`
