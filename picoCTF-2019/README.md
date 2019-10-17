@@ -78,7 +78,8 @@ ID      | Title                                                                 
 73      | [**Investigative Reversing 1**   ](./Forensics/14-investigative_reversing_1-350/solution.md)              | Forensics        | 350    | `picoCTF{An0tha_1_54503d8}`
 73      | [**Investigative Reversing 2**   ](./Forensics/15-investigative_reversing_2-350/solution.md)              | Forensics        | 350    | `picoCTF{n3xt_0n300000000000000000000000002133b312}`
 74      | [**Irish-Name-Repo 2**           ](./Web/09-irish_name_repo_2-350/solution.md)                            | Web              | 350    | `picoCTF{m0R3_SQL_plz_c1c3dff7}`
-75      | [**droids1**                     ](./Reversing/10-droids1-350/solution.md)                                   | Reversing        | 350    | ``
+75      | [**WebNet0**                     ](./Forensics/16-webnet0-350/solution.md)                                | Forensics        | 350    | `picoCTF{nongshim.shrimp.crackers}`
+76      | [**droids1**                     ](./Reversing/10-droids1-350/solution.md)                                   | Reversing        | 350    | ``
 76      | [**pastaAAA**                    ](./Forensics/Forensics/11-investigative_reversing_0-300/solution.md)    | Forensics        | 300    | `picoCTF{pa$ta_1s_lyf3}`
 76      | [pointy                      ](./Binary/14-pointy-350/solution.md)                                    | Binary Exploit   | 350    | `picoCTF{g1v1ng_d1R3Ct10n5_cad9c1b8}`
 77      | [**seed-sPRiNG**                 ](./Binary/15-seed_sPRiNG-350/solution.md)                               | Binary Exploit   | 350    | `picoCTF{pseudo_random_number_generator_not_so_random_829c50d19ba2bdb441975c0dabfcc1c0}`
