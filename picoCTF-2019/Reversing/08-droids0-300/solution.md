@@ -15,6 +15,7 @@ wget https://2019shell1.picoctf.com/static/fab5805be31eb4c802d0fdc711a1898d/zero
 ```
 
 Following the hint, we install [android studio](https://developer.android.com/studio), and execute the apk using the emulator.
+
 ![screenshot-1](./screenshot-1.png)
 
 The app says:
